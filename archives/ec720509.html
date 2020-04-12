@@ -6,19 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://super1010.github.io">
-  <title>我的第一篇blog 搭建GitHub+hexo的blog | Lu Yin&#39;s Hexo Blog</title>
+  <title>Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop | Lu Yin&#39;s Hexo Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="各类系统 演示步骤可参阅https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Yb411a7ty?t&#x3D;1551所遇问题见弹幕本文基于Windows10">
+  <meta name="description" content="第一章 Windows下搭建环境下载 virtualbox和vagrant，并安装https:&#x2F;&#x2F;www.virtualbox.org&#x2F;wiki&#x2F;Downloadshttps:&#x2F;&#x2F;www.vagrantup.com&#x2F;downloads.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇blog 搭建GitHub+hexo的blog">
-<meta property="og:url" content="http://super1010.github.io/archives/4d5d007a.html">
+<meta property="og:title" content="Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop">
+<meta property="og:url" content="http://super1010.github.io/archives/ec720509.html">
 <meta property="og:site_name" content="Lu Yin&#39;s Hexo Blog">
-<meta property="og:description" content="各类系统 演示步骤可参阅https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Yb411a7ty?t&#x3D;1551所遇问题见弹幕本文基于Windows10">
+<meta property="og:description" content="第一章 Windows下搭建环境下载 virtualbox和vagrant，并安装https:&#x2F;&#x2F;www.virtualbox.org&#x2F;wiki&#x2F;Downloadshttps:&#x2F;&#x2F;www.vagrantup.com&#x2F;downloads.html">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-03-28T14:47:24.000Z">
-<meta property="article:modified_time" content="2020-04-12T15:09:51.686Z">
+<meta property="article:published_time" content="2020-04-12T14:48:57.000Z">
+<meta property="article:modified_time" content="2020-04-12T15:07:55.939Z">
 <meta property="article:author" content="Lu Yin">
 <meta property="article:tag" content="program">
+<meta property="article:tag" content="CosmoMC">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Lu Yin&#39;s Hexo Blog" type="application/atom+xml">
@@ -145,14 +146,14 @@
             <canvas data-colors="#eaeaea" data-sectionheight="100" data-contentid="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的第一篇blog" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Windows下-构建CosmoMC的虚拟机CosmoBOX-Desktop" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇blog 搭建GitHub+hexo的blog
+      Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop
     </h1>
   
 
@@ -163,51 +164,35 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/archives/4d5d007a.html" class="archive-article-date">
-  	<time datetime="2020-03-28T14:47:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-28</time>
+<a href="/archives/ec720509.html" class="archive-article-date">
+  	<time datetime="2020-04-12T14:48:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-12</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>各类系统 演示步骤可参阅<br><a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=1551" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1Yb411a7ty?t=1551</a><br>所遇问题见弹幕<br>本文基于Windows10</p>
+        <h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载 virtualbox和vagrant，并安装<br><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external nofollow noopener noreferrer">https://www.virtualbox.org/wiki/Downloads</a><br><a href="https://www.vagrantup.com/downloads.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.vagrantup.com/downloads.html</a></p>
 <a id="more"></a>
 
-<h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载并安装 node.js和git<br><a href="https://nodejs.org/en/" target="_blank" rel="external nofollow noopener noreferrer">https://nodejs.org/en/</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://git-scm.com/downloads</a></p>
-<hr>
-<h2 id="第二章-开始写博文"><a href="#第二章-开始写博文" class="headerlink" title="第二章 开始写博文"></a>第二章 开始写博文</h2><p>在cmd命令行下cd进入blog目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">"标题"</span></span><br></pre></td></tr></table></figure>
+<p>在适当位置放入你想要的CosmoMC文件</p>
+<p>运行R,打开cmd,转到你的cosmomc文件夹下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant init cmbant/cosmobox</span><br><span class="line">$ vagrant up</span><br></pre></td></tr></table></figure>
 
-<p>创建了一个新标题</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure>
-<p>进入子目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad 标题</span><br></pre></td></tr></table></figure>
-<p>打开刚才标题下的博文</p>
-<p>写完后保存 退出</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ../..</span><br></pre></td></tr></table></figure>
-<p>退回到blog</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-<p>生成博客</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>重新启动<br>关闭</p>
+<p>这样你在terminal里/vagrant/下创建的文件就在CosmoMC文件下</p>
+<p>/vagrant下的文件，将存储在本地计算机上</p>
+<p>在cosmomc文件夹下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant resume</span><br></pre></td></tr></table></figure>
+<p>重启动</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="built_in">suspend</span></span><br></pre></td></tr></table></figure>
+<p>保存并关机</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant up</span><br></pre></td></tr></table></figure>
+<p>启动</p>
+<p>以上符合CosmoMC环境的Linux系统就安装好了。<br>下一步是按网站说明安装CAMB 和 Planck数据。<br>我会之后更新</p>
 <hr>
-<h2 id="第三章-安装插件"><a href="#第三章-安装插件" class="headerlink" title="第三章 安装插件"></a>第三章 安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<p>dir 命令查看文件夹下文件 相当于ls</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad _config.yml</span><br></pre></td></tr></table></figure>
-<p> 在最下端贴上地址按教程修改</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<p>部署到远端</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>cdm转到 你刚才安装的文件夹下<br>启动虚拟机：vagrant up（第一次是）<br>远程连接：  vagrant ssh (超级方便)<br>删除虚拟机：vagrant destroy<br>暂停虚拟机：vagrant suspend（推荐）<br>关闭虚拟机：vagrant halt (耗时不推荐)<br>恢复被暂停的虚拟机：vagrant resume<br>重启虚拟机：vagrant reload（每次改了Vagrantfile配置文件记得重启）<br>查看虚拟机状态：vagrant status</p>
 <hr>
-<h2 id="第四章-下载与设置theme"><a href="#第四章-下载与设置theme" class="headerlink" title="第四章 下载与设置theme"></a>第四章 下载与设置theme</h2><p>可选择各种主题<br><a href="https://hexo.io/themes/" target="_blank" rel="external nofollow noopener noreferrer">https://hexo.io/themes/</a><br>我选择了yilia</p>
-<p>下载与安装yilia<br><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/litten/hexo-theme-yilia</a></p>
-<p>进阶修改yilia<br><a href="https://tding.top/archives/9a232bbe.html" target="_blank" rel="external nofollow noopener noreferrer">https://tding.top/archives/9a232bbe.html</a></p>
-<p>在md文章中需要截断的地方添加</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ &lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
-
-<p>要添加多个标签，tags后面这样写就行了</p>
-<p>tags: [标签1,标签2,标签3]</p>
+<h2 id="一些经验"><a href="#一些经验" class="headerlink" title="一些经验"></a>一些经验</h2><p>发现虚拟机linux开启后显示页面就卡住不动，windows下给的外界命令可以运行，但桌面图像卡住。<br>查找了好几个小时，以为虚拟机坏掉了，重装了好几遍还是不行。<br>最后发现，虚拟器和我的英文词典软件（欧路词典）不能同时开启，可能是我的词典软件有屏幕取词功能，引起混乱。<br>关掉词典只开虚拟机，运行效果良好。</p>
 
       
 
@@ -248,6 +233,10 @@
 			 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">program</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">CosmoMC</a>
         		</li>
       		
 		</ul>
@@ -303,7 +292,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://super1010.github.io/archives/4d5d007a.html" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://super1010.github.io/archives/ec720509.html" alt="微信分享二维码">
     </div>
 </div>
 
@@ -317,18 +306,9 @@
   
 <nav id="article-nav">
   
-    <a href="/archives/ec720509.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop
-        
-      </div>
-    </a>
   
-  
-    <a href="/archives/4a17b156.html" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/archives/4d5d007a.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的第一篇blog 搭建GitHub+hexo的blog</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -390,8 +370,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/archives/4d5d007a.html" class="archive-article-date">
-  	<time datetime="2020-03-28T14:47:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-28</time>
+<a href="/archives/ec720509.html" class="archive-article-date">
+  	<time datetime="2020-04-12T14:48:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-12</time>
 </a>
   
     
