@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://super1010.github.io/"/>
-  <updated>2020-04-12T15:07:55.939Z</updated>
+  <updated>2020-04-15T03:17:40.372Z</updated>
   <id>http://super1010.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My GW note</title>
+    <link href="http://super1010.github.io/archives/92a78a0a.html"/>
+    <id>http://super1010.github.io/archives/92a78a0a.html</id>
+    <published>2020-04-15T03:13:49.000Z</published>
+    <updated>2020-04-15T03:17:40.372Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2><p><img src="/images/GW2.png" alt><br><img src="/images/GW1.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Stochastic-Gravitational-Wave-Background-Source&quot;&gt;&lt;a href=&quot;#Stochastic-Gravitational-Wave-Background-Source&quot; class=&quot;headerlink&quot; title
+      
+    
+    </summary>
+    
+    
+    
+      <category term="GW" scheme="http://super1010.github.io/tags/GW/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop</title>
@@ -65,7 +89,7 @@
     <link href="http://super1010.github.io/archives/4a17b156.html"/>
     <id>http://super1010.github.io/archives/4a17b156.html</id>
     <published>2020-03-28T14:40:14.051Z</published>
-    <updated>2020-03-29T15:37:06.479Z</updated>
+    <updated>2020-04-15T03:07:00.722Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external nofollow noopener noreferrer">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external nofollow noopener noreferrer">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external nofollow noopener noreferrer">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="external nofollow noopener noreferrer">Deployment</a></p>]]></content>
     
