@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://super1010.github.io/"/>
-  <updated>2020-04-15T03:20:28.686Z</updated>
+  <updated>2020-04-29T06:56:14.425Z</updated>
   <id>http://super1010.github.io/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>April 2020</title>
+    <link href="http://super1010.github.io/archives/991d09a4.html"/>
+    <id>http://super1010.github.io/archives/991d09a4.html</id>
+    <published>2020-04-28T16:25:52.000Z</published>
+    <updated>2020-04-29T06:56:14.425Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>2020/04/28<br>I went to the cemetery today.<br>When I faced the tombstones of my loved ones,<br>feeling that we had never been separated.<br>It was just a long time since I lost his contact.</p><p>This feeling warn me to be a nice person, to connect with friends.<br>Enjoy your life, enjoy every moment.<br>Life is too short.</p><p>当我面对逝去的亲人的墓碑，感觉我们从没有分别过，<br>只是很久不见又最近联络不上而已。</p><p>所以要做一个善待别人的nice的人，要多和朋友联络。<br>享受自己和他人短暂的人生。好好努力，好好活着就好了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;p&gt;2020/04/28&lt;br&gt;I went to the cemetery today.&lt;br&gt;When I faced the tombstones of my loved ones,&lt;br&gt;feeling that we had ne
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Daily life" scheme="http://super1010.github.io/tags/Daily-life/"/>
+    
+  </entry>
+  
+  <entry>
     <title>My GW note</title>
     <link href="http://super1010.github.io/archives/92a78a0a.html"/>
     <id>http://super1010.github.io/archives/92a78a0a.html</id>
     <published>2020-04-15T03:13:49.000Z</published>
-    <updated>2020-04-15T03:20:28.686Z</updated>
+    <updated>2020-04-16T07:11:07.020Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2><a id="more"></a><p><img src="/images/GW2.png" alt></p><hr><p><img src="/images/GW1.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2><a id="more"></a><p>早期宇宙有很多模型会发生随机引力波背景（Stochastic GW Background），不同光谱的形状是区分不同机制的主要方法。</p><p>Aligo, AVirgo, Kagra 精度在 OMG_GW~10^-9, frequency在 10-100 HZ.</p><p>DECIGO——————–精度在 OMG_GW~10^-16, frequency在 0.1-1 HZ.</p><p><img src="/images/GW2.png" alt></p><hr><p><img src="/images/GW1.png" alt></p>]]></content>
     
     <summary type="html">
     
@@ -33,7 +59,9 @@
     
     
     
-      <category term="GW" scheme="http://super1010.github.io/tags/GW/"/>
+      <category term="Gravitational Wave" scheme="http://super1010.github.io/tags/Gravitational-Wave/"/>
+    
+      <category term="Cosmology" scheme="http://super1010.github.io/tags/Cosmology/"/>
     
   </entry>
   
