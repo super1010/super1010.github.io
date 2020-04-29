@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://super1010.github.io/"/>
-  <updated>2020-04-29T08:11:03.005Z</updated>
+  <updated>2020-04-29T14:01:15.506Z</updated>
   <id>http://super1010.github.io/</id>
   
   <author>
@@ -17,23 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>April 2020</title>
-    <link href="http://super1010.github.io/archives/991d09a4.html"/>
-    <id>http://super1010.github.io/archives/991d09a4.html</id>
-    <published>2020-04-28T16:25:52.000Z</published>
-    <updated>2020-04-29T08:11:03.005Z</updated>
+    <title>AIC, AICc and BIC</title>
+    <link href="http://super1010.github.io/archives/ee7a414b.html"/>
+    <id>http://super1010.github.io/archives/ee7a414b.html</id>
+    <published>2020-04-29T13:59:01.000Z</published>
+    <updated>2020-04-29T14:01:15.506Z</updated>
     
-    <content type="html"><![CDATA[<p>##Daily Life in April 2020</p><a id="more"></a><p>2020/04/28<br>I went to the cemetery today.<br>When I faced the tombstones of my loved ones,<br>feeling that we had never been separated.<br>It was just a long time since I lost his contact.</p><p>This feeling warn me to be a nice person, to connect with friends.<br>Enjoy your life, enjoy every moment.<br>Life is too short.</p><p>当我面对逝去的亲人的墓碑，感觉我们从没有分别过，<br>只是很久不见又最近联络不上而已。</p><p>所以要做一个善待别人的nice的人，要多和朋友联络。<br>享受自己和他人短暂的人生。好好努力，好好活着就好了。</p><p>4/29<br>Add google Analytics in the backgound of the blog<br><a href="https://yansheng0083.gitee.io/article/eda67a25.html" target="_blank" rel="external nofollow noopener noreferrer">https://yansheng0083.gitee.io/article/eda67a25.html</a></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://arxiv.org/pdf/1610.09330.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1610.09330.pdf</a><br><a href="https://en.wikipedia.org/wiki/Akaike_information_criterion" target="_blank" rel="external nofollow noopener noreferrer">https://en.wikipedia.org/wiki/Akaike_information_criterion</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;##Daily Life in April 2020&lt;/p&gt;
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1610.09330.pdf&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://arxiv.org/pdf/1610.093
+      
     
     </summary>
     
     
     
-      <category term="Dailylife" scheme="http://super1010.github.io/tags/Dailylife/"/>
+      <category term="Cosmology" scheme="http://super1010.github.io/tags/Cosmology/"/>
     
   </entry>
   
