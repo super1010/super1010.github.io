@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://super1010.github.io/"/>
-  <updated>2020-07-18T09:45:07.277Z</updated>
+  <updated>2021-01-11T07:18:22.248Z</updated>
   <id>http://super1010.github.io/</id>
   
   <author>
@@ -17,10 +17,148 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CLASS NOTE</title>
+    <link href="http://super1010.github.io/archives/ca1c887e.html"/>
+    <id>http://super1010.github.io/archives/ca1c887e.html</id>
+    <published>2021-01-11T06:46:58.918Z</published>
+    <updated>2021-01-11T07:18:22.248Z</updated>
+    
+    <content type="html"><![CDATA[<p>CLASS+ Montepython</p><p>安装 class</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make clean; make class</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./class explanatory.ini</span><br></pre></td></tr></table></figure><p>运行 make<br>会在python生成 build</p><p>Montepython</p><p>default.conf.template 去掉后缀<br>变成 default<br>在里面修改Planck路径和class路径</p><p>进入montepython likelihoods 里Planck的data的第一行路径<br>修改base.param里面修改调用的数据</p><p>运行 python montepython/MontePython.py run -p BK14.param之类的文件名 -o RRR<br>python montepython/MontePython.py run -o CCC -p input/test.param</p><p>Package ‘libatlas-dev’ has no installation candidate</p><p>qi-qcosmc</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;CLASS+ Montepython&lt;/p&gt;
+&lt;p&gt;安装 class&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Holographic dark energy</title>
+    <link href="http://super1010.github.io/archives/48ac5ba7.html"/>
+    <id>http://super1010.github.io/archives/48ac5ba7.html</id>
+    <published>2020-12-24T06:55:09.286Z</published>
+    <updated>2021-01-11T07:23:42.628Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://arxiv.org/pdf/2003.03602.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2003.03602.pdf</a></p><p>yinzhe ma 的文章说pantheon的data</p><p>z&gt;0.2 or z&lt;0.2 分开用会对H_0有效果，</p><p>This is because the Pantheon dataset has large correlation between high-z and low-z samples (cf. text)</p><p>但这个关于pantheon的结果在</p><p>Eoin的paper - <a href="https://arxiv.org/pdf/1903.11743.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1903.11743.pdf</a>. 有考虑过</p><p>It is also there in a paper Riess + Scolnic wrote in 2017.</p><hr><p><a href="https://arxiv.org/pdf/1910.03872.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1910.03872.pdf</a></p><p>冯璐的文章，LSS的data会让neff有很好限制。</p><p>LSS包括WL+RSD+Planck Lensing</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/2003.03602.pdf&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://arxiv.org/pdf/2003.036
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Docker的尝试</title>
+    <link href="http://super1010.github.io/archives/fffa403c.html"/>
+    <id>http://super1010.github.io/archives/fffa403c.html</id>
+    <published>2020-12-16T11:15:24.574Z</published>
+    <updated>2021-01-11T06:44:24.371Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.<a href="https://hub.docker.com/" target="_blank" rel="external nofollow noopener noreferrer">https://hub.docker.com/</a> 注册账号和下载。</p><p>2.重启后报错缺少wsl2</p><p><a href="https://docs.microsoft.com/zh-tw/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package" target="_blank" rel="external nofollow noopener noreferrer">https://docs.microsoft.com/zh-tw/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package</a></p><p>按照的简单的加入开发者计划，并下载了步骤4的核心套件。</p><p>3.再打开docker,成功，并按他左侧的提示代码和右侧的terminal 完成安装。</p><p>4.在cmd里运行 </p><p>docker pull cmbant/cosmobox 下载了cosmobox的镜像。</p><p>5.在docker里找到，点击run. </p><p>可以重新配置一个打开镜像的环境。</p><p>这时要注意对新环境改名字和配置</p><p>6.对生成的新环境 start. 就可以了，可以看到terminal，还有一些日志。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.&lt;a href=&quot;https://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://hub.docker.com/&lt;/a&gt; 注册账号和下载。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bubble</title>
+    <link href="http://super1010.github.io/archives/eb20f1f7.html"/>
+    <id>http://super1010.github.io/archives/eb20f1f7.html</id>
+    <published>2020-12-13T07:53:48.302Z</published>
+    <updated>2021-01-11T07:20:40.176Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Note-of-Bubble-Collisions"><a href="#Note-of-Bubble-Collisions" class="headerlink" title="Note of Bubble Collisions"></a>Note of Bubble Collisions</h2><h4 id="Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory"><a href="#Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory" class="headerlink" title="Dynamic of false vacuum bubbles in Brans-Dicke theory"></a>Dynamic of false vacuum bubbles in Brans-Dicke theory</h4><p>Brans-Dicke theory 是一种scalar-tensor theory 的理论框架，引力的相互作用可以由scalar场调节。</p><p>关于引力的一个最重要的直觉就是Mach’s 原则， 惯性与引力属性有整个宇宙的物质分布决定。</p><p>在这篇文章里，G是时间的函数 G（t）, t又是宇宙的density 和size的函数。所以G由scalar场决定。</p><p>所以，bubble内部是brans-dicke 场 $\phi$, 外部是Einstein gravity.</p><p>​           内部是stable de Sitter space, outside is stable Schwarzschild space.</p><hr><h4 id="False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field"><a href="#False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field" class="headerlink" title="False vacuum bubble nucleation due to a nonminimally coupled scalar field"></a>False vacuum bubble nucleation due to a nonminimally coupled scalar field</h4><p>今天和wonwoo讨论了一下，这个时间段发生的真是太早了，z=10000，wonwoo因为想使得由true to fault 的变化，想让这个过程发生在inflation之前，这就没有了让他来做dark energy的动力。只能往引力波上搞了。</p><p>这篇文章里提到了几处由fault 的能量比true的低，所以有可能有相变的方法，但在action的变换并没有非常有效的解释由来。他建议我去读转换到Jordan frame的文章。</p><p>而且这篇有点错误，去读 nucleation of vacuum bubbles of a scalar-gravitating scalar field 的计算。</p><p>之后给我一篇f(R)的文章，觉得可以把 DEGB theory 套进proca, 嗯。。我再看看吧</p><p><a href="https://arxiv.org/pdf/2012.15625.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2012.15625.pdf</a> 荣根cai,</p><p>Magnetic field and gravitational waves from the first-order Phase Transition</p><img src="C:\Users\yinlu\Desktop\wonwoo\cai.png" alt="cai" style="zoom:60%;"><p><a href="https://arxiv.org/pdf/2007.15586.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2007.15586.pdf</a></p><img src="C:\Users\yinlu\Desktop\wonwoo\微信图片_20210107184836.png" alt="微信图片_20210107184836" style="zoom:60%;">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Note-of-Bubble-Collisions&quot;&gt;&lt;a href=&quot;#Note-of-Bubble-Collisions&quot; class=&quot;headerlink&quot; title=&quot;Note of Bubble Collisions&quot;&gt;&lt;/a&gt;Note of Bub
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Why we need Holographic dark energy</title>
+    <link href="http://super1010.github.io/archives/5fb2c77f.html"/>
+    <id>http://super1010.github.io/archives/5fb2c77f.html</id>
+    <published>2020-08-14T03:25:21.018Z</published>
+    <updated>2021-01-11T06:43:13.780Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Where-the-idea-come-from？"><a href="#Where-the-idea-come-from？" class="headerlink" title="Where the idea come from？"></a>Where the idea come from？</h2><p>本质上说，暗能量问题是一个量子引力问题。</p><p>经典引力中，人们可以引入cosmology constant 使得dark energy 为任意值，只有在量子引力中，宇宙学常数才是一个可以计算的量。当前，用这种框架探索的‘全息暗能量模型’， 就是量子引力系统中传统的定域量子场论会失效。</p><p>原因就是定域场论中过多的自由度会导致黑洞的形成，而破坏场论的有效性。为此，人们引入了紫外/红外对偶。量子零点能密度的计算需要符合紫外\红外对偶。这样得到的暗能量密度完全符观测。</p><p>为了得到合理的w, 李淼提出红外截断应该由宇宙未来事件视界决定，这就得到了广受使用的HDE.</p><p>紫外截断是普朗克长度，他是空间最小的尺寸，所以使得空间成为连续的格子，所以自由度的个数与体积成正比。</p><p>在基本系统中，自由度的个数就是系统的熵。如果尺度足够大，由紫外截断给出的熵会超过系统最大熵，所以黑洞的存在揭示了量子引力的一个反直觉的性质，系统的基本自由度与宏观体积有关，换句话说，系统的紫外截断不是独立于红外截断的。这就是所谓的“紫外\红外”截断。</p><p>黑洞内部的所有可能为外部观察者看到的自由度就反映在视界上。这就是全息效应，就是全息一词的由来。</p><p>量子场的真空能的计算应满足全息原理的要求，也就是如果真空的量子零点能密度与紫外截断相联系，那么这个系统的总能量不能超过同尺度的黑洞的能量。把这个系统取为整个宇宙，这个与全息原理相关的这空能就被认为是暗能量，即全息暗能量。</p><p>也就是把粒子视界与外来事件视界联系了起来。</p><p>（以上为张鑫教授博士论文读书笔记）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Where-the-idea-come-from？&quot;&gt;&lt;a href=&quot;#Where-the-idea-come-from？&quot; class=&quot;headerlink&quot; title=&quot;Where the idea come from？&quot;&gt;&lt;/a&gt;Where the i
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>当前目录开启终端</title>
+    <link href="http://super1010.github.io/archives/6c3e701c.html"/>
+    <id>http://super1010.github.io/archives/6c3e701c.html</id>
+    <published>2020-07-20T02:06:50.000Z</published>
+    <updated>2020-08-14T03:26:32.510Z</updated>
+    
+    <content type="html"><![CDATA[<p>sudo apt-get install nautilus-open-terminal</p><p>若遇到报错， 尝试</p><p>sudo apt-get install nautilus-extension-gnome-terminal</p><p>nautilus -q</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;sudo apt-get install nautilus-open-terminal&lt;/p&gt;
+&lt;p&gt;若遇到报错， 尝试&lt;/p&gt;
+&lt;p&gt;sudo apt-get install nautilus-extension-gnome-terminal&lt;/p&gt;
+&lt;p&gt;nautilu
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>连接ssh时遇到的问题</title>
     <link href="http://super1010.github.io/archives/b72cfa27.html"/>
     <id>http://super1010.github.io/archives/b72cfa27.html</id>
-    <published>2020-07-18T09:30:03.000Z</published>
+    <published>2020-07-18T08:30:03.000Z</published>
     <updated>2020-07-18T09:45:07.277Z</updated>
     
     <content type="html"><![CDATA[<p>在连接ssh 时遇到问题报错：<br>No more authentication methods to try.<br>Permission denied (publickey,gssapi-with-mic).</p><a id="more"></a><p>尝试1<br>在/etc/ssh/sshd_config<br>这个文件下找到 并更改内容<br>PasswordAuthentication yes<br>因只读文件 未果</p><p>给只读文件加上写权限，到文件所在目录下运行终端，输入<br>sudo chmod a+w filename<br>更改成功<br>重启ssh设定</p><pre><code class="bash">$ sudo systemctl restart sshd</code></pre><p>未果</p><p>尝试2<br>将ssh在home生成的 xxxssh 和xxxssh.pub 文件复制到home上的 .ssh 文件夹中（内原有authorized_keys 和 know_hosts文件）<br>成功</p>]]></content>
@@ -41,10 +179,10 @@
     <title>July 2020</title>
     <link href="http://super1010.github.io/archives/5d1fe638.html"/>
     <id>http://super1010.github.io/archives/5d1fe638.html</id>
-    <published>2020-07-18T09:17:57.000Z</published>
-    <updated>2020-07-18T09:37:10.693Z</updated>
+    <published>2020-07-18T08:17:57.000Z</published>
+    <updated>2021-01-11T07:22:19.432Z</updated>
     
-    <content type="html"><![CDATA[<p>7/17<br>Mark Devlin (University of Pennsylvania)<br>The Cosmic Microwave Background</p><p>ACT: the atacama cosmology telescope<br>智利<br>主要测CMB 的 B-mode.<br>六米左右直径<br> planck Power specctrum<br>ACT主要是测量CMB的high-l部分，从500 到近4000，而Planck是从0-2000. 所以ACT不存在low_l与high-l的tension。<br>paper：<a href="https://arxiv.org/abs/2007.07288" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/abs/2007.07288</a></p>]]></content>
+    <content type="html"><![CDATA[<p>7/17<br>Mark Devlin (University of Pennsylvania)<br>The Cosmic Microwave Background</p><p>ACT: the atacama cosmology telescope<br>智利<br>主要测CMB 的 B-mode.<br>六米左右直径<br> planck Power specctrum<br>ACT主要是测量CMB的high-l部分，从500 到近4000，而Planck是从0-2000. 所以ACT不存在low_l与high-l的tension。<br>paper：<a href="https://arxiv.org/abs/2007.07288" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/abs/2007.07288</a></p><hr><p>23rd July, 9 pm<br>Evan McDonough<br>Constraining Early Dark Energy with Large Scale Structure<br><a href="https://zoom.us/j/4214801692?pwd=TGxVWHJudnI1S25FbXhERlVDMkN0dz09" target="_blank" rel="external nofollow noopener noreferrer">https://zoom.us/j/4214801692?pwd=TGxVWHJudnI1S25FbXhERlVDMkN0dz09</a><br>Meeting ID: 4214801692<br>Password: cosmology</p><hr><p>New physics probes with neutrino and dark matter experiments<br>Valentina de Romeri<br>24 July 2020, 03:00 AM - 04:00 AM<br><a href="https://inspirehep.net/seminars/1806698" target="_blank" rel="external nofollow noopener noreferrer">https://inspirehep.net/seminars/1806698</a></p><hr><p>Gravitational Particle Production in the Inflationary Era 1<br>Edward W. Kolb<br>7/24 中午12：00<br><a href="https://inspirehep.net/seminars/180671" target="_blank" rel="external nofollow noopener noreferrer">https://inspirehep.net/seminars/180671</a></p><hr><p>July 24 (Friday), 2:00 p.m<br>(entry link: <a href="https://zoom.us/j/97515238644?pwd=NVhGZlNXcXBJSUdWSnNueW9LSkFndz09" target="_blank" rel="external nofollow noopener noreferrer">https://zoom.us/j/97515238644?pwd=NVhGZlNXcXBJSUdWSnNueW9LSkFndz09</a>)<br>Speaker: Eoin O Colgain (APCTP)<br>Title: Testing the string theory Swampland using late-time cosmology</p><hr><p>Gravitational waves from the non-local Starobinsky inflation<br>Sachiko Kuroyanagi(Madrid, IFT)<br>SEARCH</p><hr><p>29th July, Wednesday, 3 pm CEST, Krakow time.<br>Valerie Domcke (DESY)<br>High frequency gravitational waves<br><a href="https://indico.cern.ch/event/936284/?fbclid=IwAR0doyn1PSnc7upyJFLu8bCPms4sLoWmuBcfe5g2Rjpa0EL_ZcsiDRprST0" target="_blank" rel="external nofollow noopener noreferrer">https://indico.cern.ch/event/936284/?fbclid=IwAR0doyn1PSnc7upyJFLu8bCPms4sLoWmuBcfe5g2Rjpa0EL_ZcsiDRprST0</a></p><hr><p>Understanding our Universe with Gravitational Waves<br>Barry C. Barish(LIGO Lab., Caltech)<br>4 August 2020, 02:00 AM - 03:00 AM CST (3 August 2020, 08:00 PM - 09:00 PM CEST)<br><a href="https://inspirehep.net/seminars/1807524" target="_blank" rel="external nofollow noopener noreferrer">https://inspirehep.net/seminars/1807524</a></p>]]></content>
     
     <summary type="html">
     
@@ -58,9 +196,9 @@
     
     
     
-      <category term="Dailylife" scheme="http://super1010.github.io/tags/Dailylife/"/>
-    
       <category term="Cosmology" scheme="http://super1010.github.io/tags/Cosmology/"/>
+    
+      <category term="Dailylife" scheme="http://super1010.github.io/tags/Dailylife/"/>
     
   </entry>
   
@@ -68,7 +206,7 @@
     <title>AIC, AICc and BIC</title>
     <link href="http://super1010.github.io/archives/ee7a414b.html"/>
     <id>http://super1010.github.io/archives/ee7a414b.html</id>
-    <published>2020-04-29T13:59:01.000Z</published>
+    <published>2020-04-29T12:59:01.000Z</published>
     <updated>2020-06-19T13:05:01.579Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://arxiv.org/pdf/1610.09330.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1610.09330.pdf</a><br><a href="https://en.wikipedia.org/wiki/Akaike_information_criterion" target="_blank" rel="external nofollow noopener noreferrer">https://en.wikipedia.org/wiki/Akaike_information_criterion</a></p><p>AICc 是对小数据点的修正<br>n 是 sample size, 看起来是用到的观测数据的数量。<br>如果 n/k&gt;40,则为大n, 应该用AIC.<br>反之 n/k&lt;40 用AICc</p>]]></content>
@@ -92,7 +230,7 @@
     <title>My GW note</title>
     <link href="http://super1010.github.io/archives/92a78a0a.html"/>
     <id>http://super1010.github.io/archives/92a78a0a.html</id>
-    <published>2020-04-15T03:13:49.000Z</published>
+    <published>2020-04-15T02:13:49.000Z</published>
     <updated>2020-04-16T07:11:07.020Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2><a id="more"></a><p>早期宇宙有很多模型会发生随机引力波背景（Stochastic GW Background），不同光谱的形状是区分不同机制的主要方法。</p><p>Aligo, AVirgo, Kagra 精度在 OMG_GW~10^-9, frequency在 10-100 HZ.</p><p>DECIGO——————–精度在 OMG_GW~10^-16, frequency在 0.1-1 HZ.</p><p><img src="/images/GW2.png" alt></p><hr><p><img src="/images/GW1.png" alt></p>]]></content>
@@ -115,7 +253,7 @@
     <title>Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop</title>
     <link href="http://super1010.github.io/archives/ec720509.html"/>
     <id>http://super1010.github.io/archives/ec720509.html</id>
-    <published>2020-04-12T14:48:57.000Z</published>
+    <published>2020-04-12T13:48:57.000Z</published>
     <updated>2020-04-12T15:07:55.939Z</updated>
     
     <content type="html"><![CDATA[<h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载 virtualbox和vagrant，并安装<br><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external nofollow noopener noreferrer">https://www.virtualbox.org/wiki/Downloads</a><br><a href="https://www.vagrantup.com/downloads.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.vagrantup.com/downloads.html</a></p><a id="more"></a><p>在适当位置放入你想要的CosmoMC文件</p><p>运行R,打开cmd,转到你的cosmomc文件夹下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant init cmbant/cosmobox</span><br><span class="line">$ vagrant up</span><br></pre></td></tr></table></figure><p>这样你在terminal里/vagrant/下创建的文件就在CosmoMC文件下</p><p>/vagrant下的文件，将存储在本地计算机上</p><p>在cosmomc文件夹下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant resume</span><br></pre></td></tr></table></figure><p>重启动</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="built_in">suspend</span></span><br></pre></td></tr></table></figure><p>保存并关机</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant up</span><br></pre></td></tr></table></figure><p>启动</p><p>以上符合CosmoMC环境的Linux系统就安装好了。<br>下一步是按网站说明安装CAMB 和 Planck数据。<br>我会之后更新</p><hr><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>cdm转到 你刚才安装的文件夹下<br>启动虚拟机：vagrant up（第一次是）<br>远程连接：  vagrant ssh (超级方便)<br>删除虚拟机：vagrant destroy<br>暂停虚拟机：vagrant suspend（推荐）<br>关闭虚拟机：vagrant halt (耗时不推荐)<br>恢复被暂停的虚拟机：vagrant resume<br>重启虚拟机：vagrant reload（每次改了Vagrantfile配置文件记得重启）<br>查看虚拟机状态：vagrant status</p><hr><h2 id="一些经验"><a href="#一些经验" class="headerlink" title="一些经验"></a>一些经验</h2><p>发现虚拟机linux开启后显示页面就卡住不动，windows下给的外界命令可以运行，但桌面图像卡住。<br>查找了好几个小时，以为虚拟机坏掉了，重装了好几遍还是不行。<br>最后发现，虚拟器和我的英文词典软件（欧路词典）不能同时开启，可能是我的词典软件有屏幕取词功能，引起混乱。<br>关掉词典只开虚拟机，运行效果良好。</p>]]></content>
@@ -135,27 +273,6 @@
   </entry>
   
   <entry>
-    <title>我的第一篇blog 搭建GitHub+hexo的blog</title>
-    <link href="http://super1010.github.io/archives/4d5d007a.html"/>
-    <id>http://super1010.github.io/archives/4d5d007a.html</id>
-    <published>2020-03-28T14:47:24.000Z</published>
-    <updated>2020-07-18T10:06:15.969Z</updated>
-    
-    <content type="html"><![CDATA[<p>各类系统 演示步骤可参阅<br><a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=1551" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1Yb411a7ty?t=1551</a><br>所遇问题见弹幕<br>本文基于Windows10</p><a id="more"></a><h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载并安装 node.js和git<br><a href="https://nodejs.org/en/" target="_blank" rel="external nofollow noopener noreferrer">https://nodejs.org/en/</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://git-scm.com/downloads</a></p><hr><h2 id="第二章-开始写博文"><a href="#第二章-开始写博文" class="headerlink" title="第二章 开始写博文"></a>第二章 开始写博文</h2><p>在cmd命令行下cd进入blog目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">"标题"</span></span><br></pre></td></tr></table></figure><p>创建了一个新标题</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><p>进入子目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad 标题</span><br></pre></td></tr></table></figure><p>打开刚才标题下的博文</p><p>写完后保存 退出</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ../..</span><br></pre></td></tr></table></figure><p>退回到blog</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>生成博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>重新启动<br>关闭</p><hr><h2 id="第三章-安装插件"><a href="#第三章-安装插件" class="headerlink" title="第三章 安装插件"></a>第三章 安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>dir 命令查看文件夹下文件 相当于ls</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad _config.yml</span><br></pre></td></tr></table></figure><p> 在最下端贴上地址按教程修改</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>部署到远端</p><hr><h2 id="第四章-下载与设置theme"><a href="#第四章-下载与设置theme" class="headerlink" title="第四章 下载与设置theme"></a>第四章 下载与设置theme</h2><p>可选择各种主题<br><a href="https://hexo.io/themes/" target="_blank" rel="external nofollow noopener noreferrer">https://hexo.io/themes/</a><br>我选择了yilia</p><p>下载与安装yilia<br><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/litten/hexo-theme-yilia</a></p><p>进阶修改yilia<br><a href="https://tding.top/archives/9a232bbe.html" target="_blank" rel="external nofollow noopener noreferrer">https://tding.top/archives/9a232bbe.html</a></p><p>在md文章中需要截断的地方添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ &lt;!-- more --&gt;</span><br></pre></td></tr></table></figure><p>要添加多个标签，tags后面这样写就行了</p><p>tags: [标签1,标签2,标签3]</p><h2 id="设置隐藏博文-hexo-hide-posts"><a href="#设置隐藏博文-hexo-hide-posts" class="headerlink" title="设置隐藏博文 hexo-hide-posts"></a>设置隐藏博文 hexo-hide-posts</h2><p>install from：</p><p><a href="https://github.com/printempw/hexo-hide-posts" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/printempw/hexo-hide-posts</a></p><p>在文章的 front-matter 中添加 hidden: true 即可隐藏文章。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;各类系统 演示步骤可参阅&lt;br&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Yb411a7ty?t=1551&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://www.bilibili.com/video/BV1Yb411a7ty?t=1551&lt;/a&gt;&lt;br&gt;所遇问题见弹幕&lt;br&gt;本文基于Windows10&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="program" scheme="http://super1010.github.io/tags/program/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://super1010.github.io/archives/4a17b156.html"/>
     <id>http://super1010.github.io/archives/4a17b156.html</id>
@@ -171,6 +288,27 @@
     </summary>
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇blog 搭建GitHub+hexo的blog</title>
+    <link href="http://super1010.github.io/archives/4d5d007a.html"/>
+    <id>http://super1010.github.io/archives/4d5d007a.html</id>
+    <published>2020-03-28T13:47:24.000Z</published>
+    <updated>2020-07-18T10:06:15.969Z</updated>
+    
+    <content type="html"><![CDATA[<p>各类系统 演示步骤可参阅<br><a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=1551" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1Yb411a7ty?t=1551</a><br>所遇问题见弹幕<br>本文基于Windows10</p><a id="more"></a><h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载并安装 node.js和git<br><a href="https://nodejs.org/en/" target="_blank" rel="external nofollow noopener noreferrer">https://nodejs.org/en/</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://git-scm.com/downloads</a></p><hr><h2 id="第二章-开始写博文"><a href="#第二章-开始写博文" class="headerlink" title="第二章 开始写博文"></a>第二章 开始写博文</h2><p>在cmd命令行下cd进入blog目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">"标题"</span></span><br></pre></td></tr></table></figure><p>创建了一个新标题</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><p>进入子目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad 标题</span><br></pre></td></tr></table></figure><p>打开刚才标题下的博文</p><p>写完后保存 退出</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ../..</span><br></pre></td></tr></table></figure><p>退回到blog</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>生成博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>重新启动<br>关闭</p><hr><h2 id="第三章-安装插件"><a href="#第三章-安装插件" class="headerlink" title="第三章 安装插件"></a>第三章 安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>dir 命令查看文件夹下文件 相当于ls</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad _config.yml</span><br></pre></td></tr></table></figure><p> 在最下端贴上地址按教程修改</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>部署到远端</p><hr><h2 id="第四章-下载与设置theme"><a href="#第四章-下载与设置theme" class="headerlink" title="第四章 下载与设置theme"></a>第四章 下载与设置theme</h2><p>可选择各种主题<br><a href="https://hexo.io/themes/" target="_blank" rel="external nofollow noopener noreferrer">https://hexo.io/themes/</a><br>我选择了yilia</p><p>下载与安装yilia<br><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/litten/hexo-theme-yilia</a></p><p>进阶修改yilia<br><a href="https://tding.top/archives/9a232bbe.html" target="_blank" rel="external nofollow noopener noreferrer">https://tding.top/archives/9a232bbe.html</a></p><p>在md文章中需要截断的地方添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ &lt;!-- more --&gt;</span><br></pre></td></tr></table></figure><p>要添加多个标签，tags后面这样写就行了</p><p>tags: [标签1,标签2,标签3]</p><h2 id="设置隐藏博文-hexo-hide-posts"><a href="#设置隐藏博文-hexo-hide-posts" class="headerlink" title="设置隐藏博文 hexo-hide-posts"></a>设置隐藏博文 hexo-hide-posts</h2><p>install from：</p><p><a href="https://github.com/printempw/hexo-hide-posts" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/printempw/hexo-hide-posts</a></p><p>在文章的 front-matter 中添加 hidden: true 即可隐藏文章。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;各类系统 演示步骤可参阅&lt;br&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Yb411a7ty?t=1551&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://www.bilibili.com/video/BV1Yb411a7ty?t=1551&lt;/a&gt;&lt;br&gt;所遇问题见弹幕&lt;br&gt;本文基于Windows10&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="program" scheme="http://super1010.github.io/tags/program/"/>
     
   </entry>
   
