@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://super1010.github.io/"/>
-  <updated>2021-01-27T06:02:30.577Z</updated>
+  <updated>2021-02-04T15:35:34.255Z</updated>
   <id>http://super1010.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://super1010.github.io/archives/8b320689.html"/>
     <id>http://super1010.github.io/archives/8b320689.html</id>
     <published>2021-01-22T12:48:40.674Z</published>
-    <updated>2021-01-27T06:02:30.577Z</updated>
+    <updated>2021-02-04T15:35:34.255Z</updated>
     
     <content type="html"><![CDATA[<p>c++早就是大学一年级用到的上古语言了，平时早就不用了，但最近有一个工作要和合作者完成，合作者甩给我一份祖传code。</p><p>打开一看 omg c++, 只能在网上找教程安装了。</p><p>视频地址 <a href="https://www.bilibili.com/video/BV1ZT4y1g7zt/?spm_id_from=333.788.videocard.0" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1ZT4y1g7zt/?spm_id_from=333.788.videocard.0</a></p><ol><li>选用VS code来搭建环境。</li></ol><p><a href="https://guyutongxue.github.io/VSCodeConfigHelper/" target="_blank" rel="external nofollow noopener noreferrer">https://guyutongxue.github.io/VSCodeConfigHelper/</a></p><ol start="2"><li>新建文件夹，以后code只编译这个文件夹里的。</li></ol><p>还更换了主题。。但他的code还是有bug…</p><hr><p><a href="https://www.bilibili.com/video/BV1Xt411g7jT?p=2" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1Xt411g7jT?p=2</a></p><p>尝试配置 VS </p><p>体积太庞大，中途退出</p><hr><p>move to Dev C++</p><p><a href="https://www.bilibili.com/video/BV13b411h7st?from=search&amp;seid=7778610259265882581" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV13b411h7st?from=search&amp;seid=7778610259265882581</a></p><p>简单完成！</p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="http://super1010.github.io/archives/a4166011.html"/>
     <id>http://super1010.github.io/archives/a4166011.html</id>
     <published>2021-01-21T15:54:37.757Z</published>
-    <updated>2021-01-22T02:02:33.004Z</updated>
+    <updated>2021-02-04T15:35:34.255Z</updated>
     
     <content type="html"><![CDATA[<p>在equation_ppf中</p><pre><code>lll=1.0/a-1.0</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if (lll &lt; 25.0) then</span><br></pre></td></tr></table></figure><pre><code>nnn= (lll*100.d0 - int(100.d0*lll))</code></pre> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if (nnn &#x3D;&#x3D; 0.0) then</span><br></pre></td></tr></table></figure><pre><code>    OPEN(UNIT=1,FILE=&apos;hfrwdata.dat&apos;,POSITION=&quot;APPEND&quot;,STATUS=&apos;old&apos;)  WRITE(1,&quot;(5(3X,F12.8))&quot;) a, lll, w_de(a), OMD, hoh0 CLOSE(1)</code></pre>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">end if</span><br><span class="line"></span><br><span class="line">end if</span><br></pre></td></tr></table></figure><hr><p>在source中的HST 直接写出 z = -1to 5 的 H(z)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">integer i</span><br><span class="line">real(mcp) :: theoryval,z0,z1</span><br><span class="line"> </span><br><span class="line">OPEN(UNIT&#x3D;1,FILE&#x3D;&#39;Hz.dat&#39;,POSITION&#x3D;&quot;APPEND&quot;,STATUS&#x3D;&#39;old&#39;)</span><br><span class="line">z0&#x3D;0.d0</span><br><span class="line">do i&#x3D;1, 60</span><br><span class="line">    z1&#x3D;i*0.1-1</span><br><span class="line">    theoryval &#x3D; CMB%H0*this%Calculator%Hofz(z1)&#x2F;this%Calculator%Hofz(z0)</span><br><span class="line">   WRITE(1,&quot;(5(3X,F12.8))&quot;) z1, theoryval</span><br><span class="line">end do</span><br><span class="line">CLOSE(1)</span><br></pre></td></tr></table></figure><p>其中 Hz.dat， 在最外层test.ini 旁边</p>]]></content>
     
