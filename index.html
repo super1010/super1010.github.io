@@ -172,6 +172,165 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-配置运行C++" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/8b320689.html">配置运行C++</a>
+    </h1>
+  
+
+        
+        <a href="/archives/8b320689.html" class="archive-article-date">
+  	<time datetime="2021-01-22T12:48:40.674Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-22</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>c++早就是大学一年级用到的上古语言了，平时早就不用了，但最近有一个工作要和合作者完成，合作者甩给我一份祖传code。</p>
+<p>打开一看 omg c++, 只能在网上找教程安装了。</p>
+<p>视频地址 <a href="https://www.bilibili.com/video/BV1ZT4y1g7zt/?spm_id_from=333.788.videocard.0" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1ZT4y1g7zt/?spm_id_from=333.788.videocard.0</a></p>
+<ol>
+<li>选用VS code来搭建环境。</li>
+</ol>
+<p><a href="https://guyutongxue.github.io/VSCodeConfigHelper/" target="_blank" rel="external nofollow noopener noreferrer">https://guyutongxue.github.io/VSCodeConfigHelper/</a></p>
+<ol start="2">
+<li>新建文件夹，以后code只编译这个文件夹里的。</li>
+</ol>
+<p>还更换了主题。。但他的code还是有bug…</p>
+<hr>
+<p><a href="https://www.bilibili.com/video/BV1Xt411g7jT?p=2" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1Xt411g7jT?p=2</a></p>
+<p>尝试配置 VS </p>
+<p>体积太庞大，中途退出</p>
+<hr>
+<p>move to Dev C++</p>
+<p><a href="https://www.bilibili.com/video/BV13b411h7st?from=search&amp;seid=7778610259265882581" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV13b411h7st?from=search&amp;seid=7778610259265882581</a></p>
+<p>简单完成！</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/8b320689.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-fortran写入文件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/a4166011.html">fortran写入文件</a>
+    </h1>
+  
+
+        
+        <a href="/archives/a4166011.html" class="archive-article-date">
+  	<time datetime="2021-01-21T15:54:37.757Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-22</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在equation_ppf中</p>
+<pre><code>lll=1.0/a-1.0</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if (lll &lt; 25.0) then</span><br></pre></td></tr></table></figure>
+
+<pre><code>nnn= (lll*100.d0 - int(100.d0*lll))</code></pre> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if (nnn &#x3D;&#x3D; 0.0) then</span><br></pre></td></tr></table></figure>
+
+<pre><code>    OPEN(UNIT=1,FILE=&apos;hfrwdata.dat&apos;,POSITION=&quot;APPEND&quot;,STATUS=&apos;old&apos;)
+
+  WRITE(1,&quot;(5(3X,F12.8))&quot;) a, lll, w_de(a), OMD, hoh0 
+
+CLOSE(1)</code></pre>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">end if</span><br><span class="line"></span><br><span class="line">end if</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>在source中的HST 直接写出 z = -1to 5 的 H(z)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">integer i</span><br><span class="line">real(mcp) :: theoryval,z0,z1</span><br><span class="line"> </span><br><span class="line">OPEN(UNIT&#x3D;1,FILE&#x3D;&#39;Hz.dat&#39;,POSITION&#x3D;&quot;APPEND&quot;,STATUS&#x3D;&#39;old&#39;)</span><br><span class="line">z0&#x3D;0.d0</span><br><span class="line">do i&#x3D;1, 60</span><br><span class="line">    z1&#x3D;i*0.1-1</span><br><span class="line">    theoryval &#x3D; CMB%H0*this%Calculator%Hofz(z1)&#x2F;this%Calculator%Hofz(z0)</span><br><span class="line">   WRITE(1,&quot;(5(3X,F12.8))&quot;) z1, theoryval</span><br><span class="line">end do</span><br><span class="line">CLOSE(1)</span><br></pre></td></tr></table></figure>
+
+<p>其中 Hz.dat， 在最外层test.ini 旁边</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/a4166011.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-CLASS NOTE" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -784,161 +943,6 @@ https://inspirehep.net/seminars/1807524
       
         <p class="article-more-link">
           <a class="article-more-a" href="/archives/5d1fe638.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-AIC-AICc-and-BIC" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/ee7a414b.html">AIC, AICc and BIC</a>
-    </h1>
-  
-
-        
-        <a href="/archives/ee7a414b.html" class="archive-article-date">
-  	<time datetime="2020-04-29T12:59:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-29</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="https://arxiv.org/pdf/1610.09330.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1610.09330.pdf</a><br><a href="https://en.wikipedia.org/wiki/Akaike_information_criterion" target="_blank" rel="external nofollow noopener noreferrer">https://en.wikipedia.org/wiki/Akaike_information_criterion</a></p>
-<p>AICc 是对小数据点的修正<br>n 是 sample size, 看起来是用到的观测数据的数量。<br>如果 n/k&gt;40,则为大n, 应该用AIC.<br>反之 n/k&lt;40 用AICc</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Cosmology</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/ee7a414b.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-My-GW-note" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/92a78a0a.html">My GW note</a>
-    </h1>
-  
-
-        
-        <a href="/archives/92a78a0a.html" class="archive-article-date">
-  	<time datetime="2020-04-15T02:13:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-15</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2>
-        
-          <a class="article-more-a" href="/archives/92a78a0a.html#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Cosmology</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Gravitational Wave</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/92a78a0a.html">展开全文 >></a>
         </p>
       
 
