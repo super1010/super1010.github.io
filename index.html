@@ -172,6 +172,594 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-CosmoMC 画图更改颜色" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/d6b5ecb.html">CosmoMC 画图更改颜色</a>
+    </h1>
+  
+
+        
+        <a href="/archives/d6b5ecb.html" class="archive-article-date">
+  	<time datetime="2021-06-18T14:23:50.272Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>from getdist import plots</p>
+<p>g=plots.get_subplot_plotter(chain_dir=r’/home/ubuntu/cosmomc/chains’)</p>
+<p>roots = [‘test’]</p>
+<p>params = [‘omegabh2’, ‘omegach2’]</p>
+<p>g.triangle_plot(roots, params, filled=True,</p>
+<p>line_args = [{‘lw’:1, ‘color’: ‘pink’}], contour_colors =[‘darkgreen’])</p>
+<p>g.export(‘yinlu.eps’)</p>
+<p>#其它备选颜色 darkblue lightgreen</p>
+<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20210618233646881.png" alt="image-20210618233646881" style="zoom: 67%;">
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/d6b5ecb.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-获取VirtualBox COM对象失败，应用程序将被中断(The VBoxSDS windows service is disabled)注册表修改无效 解决办法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/a3cf0582.html">获取VirtualBox COM对象失败，应用程序将被中断(The VBoxSDS windows service is disabled)注册表修改无效 解决办法</a>
+    </h1>
+  
+
+        
+        <a href="/archives/a3cf0582.html" class="archive-article-date">
+  	<time datetime="2021-05-29T08:24:20.810Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>解决此问题，打开Windows服务（Win + R，然后键入services.msc），然后找到VirtualBox系统服务并启动该服务，设置为自动，确定然后重启virtualbox即可。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/a3cf0582.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-junk/SN" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/412b70ff.html">junk/SN</a>
+    </h1>
+  
+
+        
+        <a href="/archives/412b70ff.html" class="archive-article-date">
+  	<time datetime="2021-05-25T06:30:21.486Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>If your student wants to look at the Pantheon dataset, here it is. </p>
+<p>So starting from column 0, the redshift, magnitude, error on magnitude, right ascension and declination are in columns (7, 24, 25, 34, 35). </p>
+<p>I do not see any evidence for an orientation in the supernovae, but will look again next week. I suspect the authors of this paper (<a href="https://arxiv.org/pdf/1806.02773.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1806.02773.pdf</a>) have done a good job and there is nothing to see in Pantheon. One wonders if all the corrections they apply to light curves for colour, shape could wash these things out. Let me see if I can recover some of Roya’s results with Subir in Pantheon and/or JLA. </p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/412b70ff.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-角度转换" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/35dfd7de.html">角度转换</a>
+    </h1>
+  
+
+        
+        <a href="/archives/35dfd7de.html" class="archive-article-date">
+  	<time datetime="2021-05-19T02:13:26.008Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Right ascension (abbreviated RA; symbol α) is the angular distance of a particular point measured eastward along the celestial equator from the Sun at the March equinox to the (hour circle of the) point in question above the earth.<a href="https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20" target="_blank" rel="external nofollow noopener noreferrer">https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20</a>(abbreviated%20RA%3B%20symbol,in%20question%20above%20the%20earth</p>
+<p><a href="https://arxiv.org/pdf/1907.04869.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1907.04869.pdf</a></p>
+<p><img src="../images/Snipaste_2021-05-19_11-16-34.png" alt="Snipaste_2021-05-19_11-16-34"></p>
+<p>for alpha: </p>
+<p>​             16 is hour , 09 is mins, 13.96 is second.</p>
+<p>​             hour * 360 / 24 + mins /60 * 360 / 24 +second /60 /60 * 360 /24 = degree.</p>
+<p>for delta:</p>
+<p>​             it’s degree already</p>
+<p>correspond to Horizontal axis vertical axis</p>
+<p><img src="../images/Snipaste_2021-05-19_11-38-21.png" alt="Snipaste_2021-05-19_11-38-21"></p>
+<p>This is the table in our paper</p>
+<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20210519112959547.png" alt="image-20210519112959547" style="zoom:67%;">
+
+<p>if need CMB dipole :</p>
+<p>In local group coordinates it is:</p>
+<p> 627 \pm 22 km/s in the direction of galactic longitude and latitude l = 276 \pm 3 degree, b = 30 \pm 3 degree</p>
+<p>In galactic coordinates it is:</p>
+<p>369 km/s towards RA=168 degree, DEC=−7 degree</p>
+<p>(Stewart &amp; Sciama 1967; Peebles &amp; Wilkinson 1968; Hinshaw et al. 2009)</p>
+<p>or see roya paper <a href="https://arxiv.org/pdf/1712.03444.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1712.03444.pdf</a>.</p>
+<p>For DES data</p>
+<p><a href="https://arxiv.org/pdf/1702.00072.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1702.00072.pdf</a></p>
+<img src="../images/Snipaste_2021-05-19_11-27-30.png" alt="Snipaste_2021-05-19_11-27-30" style="zoom:50%;">
+
+<p><a href="https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20" target="_blank" rel="external nofollow noopener noreferrer">https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20</a>(abbreviated%20RA%3B%20symbol,in%20question%20above%20the%20earth</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/35dfd7de.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-The question of FLRW" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/92dd292.html">The question of FLRW</a>
+    </h1>
+  
+
+        
+        <a href="/archives/92dd292.html" class="archive-article-date">
+  	<time datetime="2021-04-29T07:25:08.103Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="the-standard-arguments-for-FLRW-in-the-late-Universe"><a href="#the-standard-arguments-for-FLRW-in-the-late-Universe" class="headerlink" title="the standard arguments for FLRW in the late Universe?"></a>the standard arguments for FLRW in the late Universe?</h5><p>In fact one usually writes a first-order perturbation theory around background FLRW to explain the late Universe. As you know, the unperturbed FLRW would just not work.</p>
+<p>The peculiar velocities, density fluctuation etc are all first-order terms. However as you saw in our work and also Kostas and others works…. even the perturbed FLRW does not hold well for late Universe !</p>
+<p>Roya</p>
+<p>I am not sure about the homogeneity scale of 100 Mpcs. The “homogeneity scale”  is rather a poorly defined quantity and even a more poorly-observed hypothesis.</p>
+<p>We observe huge superclusters on scales above 100 Mpcs, at least in our Local Universe (e.g. Shapley at around 120-150 Mpcs) and we do not observe convergence to CMB restframe at scale of 100 Mpcs, contrary to the predictions of FLRW.</p>
+<p>FLRW dates back to before Penzias and Wilson’s discovery: the initial<br>physical motivation was “convenience” really :  you can write correlation functions and do statistical analysis in FLRW Universe etc….. Then came CMB and its isotropy which provided strong evidence for the FLRW hypothesis at early times. However the evidence from late Universe, LSS, galaxy distributions provide not-so-firm support for homogeneity and isotropy.</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/92dd292.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-arxiv笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/d3a61e50.html">arxiv笔记</a>
+    </h1>
+  
+
+        
+        <a href="/archives/d3a61e50.html" class="archive-article-date">
+  	<time datetime="2021-04-13T08:14:30.878Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-13</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Exploring the Early Universe with <strong>Gaia</strong> and <strong>THEIA</strong></p>
+<p>Juan Garcia-Bellido, Hitoshi Murayama and Graham White</p>
+<p>Gaia是frequency介于pulsar timing 阵列 和LISA之间的优秀探测。</p>
+<p><img src="../images/1618370365(1).png" alt="1618370365(1)"></p>
+<hr>
+<p>标准烛光VS 多个local H0测量</p>
+<p>EDE+PHANTOM</p>
+<hr>
+<p>4/19</p>
+<p>Growth of Massive Black Hole Seeds by Migration of Stellar and Primordial Black Holes: Gravitational Waves and Stochastic Background </p>
+<p>2104.07682v1</p>
+<hr>
+<p>苏联物理学家雅科夫·泽利多维奇（Yakov Zeldovich）和伊戈尔·诺维科夫（Igor Novikov）早在1967年就首先指出，黑洞在宇宙早期可以吸积辐射并剧烈增长；紧接着在1971年，斯蒂芬·霍金（Stephen Hawking）提出了由宇宙早期超致密不均匀性直接坍缩形成原初黑洞的机制，这是目前被广泛接受的原初黑洞形成机制。在此之后，霍金与伯纳德·卡尔（Bernard Carr）发展了原初黑洞相关理论并做了大量先驱性工作。</p>
+<p>在过去的五十年间，原初黑洞一直是宇宙学的一大焦点。原因之一是大家普遍认为，相对于天体物理黑洞，原初黑洞质量较小，霍金辐射在其演化过程中非常重要。霍金辐射是一种量子场论在弯曲时空中的效应，它的发现直接引出了黑洞信息悖论，该悖论随后成为了理论物理学和宇宙学领域最前沿的一大问题。再者就是，原初黑洞本身可以产生很多宇宙学和天体物理现象。诞生时质量小于10e15克的原初黑洞会由于霍金蒸发效应而无法存活到今天，但其可以对如下现象做出可能的解释：伽马射线背景、宇宙线中的反物质粒子以及短时间的伽马暴等。相比之下，质量大于10e15克的原初黑洞具有更大的意义，它们可以为超大质量黑洞的形成提供种子，影响大尺度结构的形成，对宇宙热历史和电离历史产生影响等。</p>
+<hr>
+<p><a href="https://arxiv.org/pdf/2105.13549.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2105.13549.pdf</a></p>
+<p>Dark Energy Survey Year 3 Results: Cosmological Constraints from Galaxy Clustering and Weak Lensing</p>
+<img src="../images/31.png" alt="31" style="zoom:60%;">
+
+
+
+<img src="../images/Snipaste_2021-05-31_13-54-08.png" alt="Snipaste_2021-05-31_13-54-08" style="zoom:50%;">
+
+<img src="../images/Snipaste_2021-05-31_13-53-53.png" alt="Snipaste_2021-05-31_13-53-53" style="zoom:60%;">
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/d3a61e50.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-potential" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/e2c47660.html">potential</a>
+    </h1>
+  
+
+        
+        <a href="/archives/e2c47660.html" class="archive-article-date">
+  	<time datetime="2021-04-12T03:15:48.338Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-12</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Primordial Black Holes Arise When The Inflaton Falls</p>
+<p>Keisuke Inomata,1 Evan McDonough,1 and Wayne Hu</p>
+<p>Primordial Black Holes (PBHs) have entered the forefront of theoretical cosmology, due their potential role in phenomena ranging from gravitational waves, to dark matter, to galaxy formation. While producing PBHs from inflationary fluctuations naively would seem to require a large deceleration of the inflaton from its velocity at the horizon exit of CMB scales, in this work we demonstrate that an acceleration from a relatively small downward step in the potential that is transited in much less than an e-fold amplifies fluctuations as well. Depending on the location of the step, such PBHs could explain dark matter or the black holes detected by the gravitational wave interferometers. The perturbation enhancement has a natural interpretation as particle production due to the non-adiabatic transition associated with the step.</p>
+<img src="../images/c6388684591dadca4553dcbe5324d41.png" alt="c6388684591dadca4553dcbe5324d41" style="zoom:60%;">
+
+<img src="../images/151f3987fb18aa443f68f6f8df9b3dc.png" alt="151f3987fb18aa443f68f6f8df9b3dc" style="zoom:60%;">
+
+
+
+
+
+
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/e2c47660.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-python cosmoTransitions 学习笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/6c4b5f99.html">python cosmoTransitions 学习笔记</a>
+    </h1>
+  
+
+        
+        <a href="/archives/6c4b5f99.html" class="archive-article-date">
+  	<time datetime="2021-03-29T05:16:42.482Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>bug出现</p>
+<p>object of type &lt;class ‘numpy.float64’&gt; cannot be safely interpreted as an integer.</p>
+<p>由于numpy版本太高导致。</p>
+<p>解决：</p>
+<p>pip uninstall numpy</p>
+<p>conda install numpy=1.17.5</p>
+<p>pip install numpy==1.17.5</p>
+<hr>
+<p>关于spyder中plt.show()不显示画图输出结果的解决办法</p>
+<p>依次点击菜单栏Tools-&gt;Preferences-&gt;IPython console-&gt;Graphics-&gt;Graphics backend-&gt;Backend,将Backend设置为了第一项是在SPYDER内生成，第二项是弹出图片。</p>
+<p>终于可以运行了，泪目。</p>
+<hr>
+<hr>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/6c4b5f99.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-配置运行C++" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -331,650 +919,9 @@ CLOSE(1)</code></pre>  <figure class="highlight plain"><table><tr><td class="gut
 
 
   
-    <article id="post-CLASS NOTE" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/ca1c887e.html">CLASS NOTE</a>
-    </h1>
-  
-
-        
-        <a href="/archives/ca1c887e.html" class="archive-article-date">
-  	<time datetime="2021-01-11T06:46:58.918Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-11</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>CLASS+ Montepython</p>
-<p>安装 class</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make clean; make class</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./class explanatory.ini</span><br></pre></td></tr></table></figure>
-
-
-<p>运行 make<br>会在python生成 build</p>
-<p>Montepython</p>
-<p>default.conf.template 去掉后缀<br>变成 default<br>在里面修改Planck路径和class路径</p>
-<p>进入montepython likelihoods 里Planck的data的第一行路径<br>修改base.param里面修改调用的数据</p>
-<p>运行 python montepython/MontePython.py run -p BK14.param之类的文件名 -o RRR<br>python montepython/MontePython.py run -o CCC -p input/test.param</p>
-<p>Package ‘libatlas-dev’ has no installation candidate</p>
-<p>qi-qcosmc</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/ca1c887e.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Holographic dark energy" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/48ac5ba7.html">Holographic dark energy</a>
-    </h1>
-  
-
-        
-        <a href="/archives/48ac5ba7.html" class="archive-article-date">
-  	<time datetime="2020-12-24T06:55:09.286Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="https://arxiv.org/pdf/2003.03602.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2003.03602.pdf</a></p>
-<p>yinzhe ma 的文章说pantheon的data</p>
-<p>z&gt;0.2 or z&lt;0.2 分开用会对H_0有效果，</p>
-<p>This is because the Pantheon dataset has large correlation between high-z and low-z samples (cf. text)</p>
-<p>但这个关于pantheon的结果在</p>
-<p>Eoin的paper - <a href="https://arxiv.org/pdf/1903.11743.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1903.11743.pdf</a>. 有考虑过</p>
-<p>It is also there in a paper Riess + Scolnic wrote in 2017.</p>
-<hr>
-<p><a href="https://arxiv.org/pdf/1910.03872.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1910.03872.pdf</a></p>
-<p>冯璐的文章，LSS的data会让neff有很好限制。</p>
-<p>LSS包括WL+RSD+Planck Lensing</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/48ac5ba7.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Docker的尝试" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/fffa403c.html">Docker的尝试</a>
-    </h1>
-  
-
-        
-        <a href="/archives/fffa403c.html" class="archive-article-date">
-  	<time datetime="2020-12-16T11:15:24.574Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-16</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>1.<a href="https://hub.docker.com/" target="_blank" rel="external nofollow noopener noreferrer">https://hub.docker.com/</a> 注册账号和下载。</p>
-<p>2.重启后报错缺少wsl2</p>
-<p><a href="https://docs.microsoft.com/zh-tw/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package" target="_blank" rel="external nofollow noopener noreferrer">https://docs.microsoft.com/zh-tw/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package</a></p>
-<p>按照的简单的加入开发者计划，并下载了步骤4的核心套件。</p>
-<p>3.再打开docker,成功，并按他左侧的提示代码和右侧的terminal 完成安装。</p>
-<p>4.在cmd里运行 </p>
-<p>docker pull cmbant/cosmobox 下载了cosmobox的镜像。</p>
-<p>5.在docker里找到，点击run. </p>
-<p>可以重新配置一个打开镜像的环境。</p>
-<p>这时要注意对新环境改名字和配置</p>
-<p>6.对生成的新环境 start. 就可以了，可以看到terminal，还有一些日志。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/fffa403c.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-bubble" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/eb20f1f7.html">bubble</a>
-    </h1>
-  
-
-        
-        <a href="/archives/eb20f1f7.html" class="archive-article-date">
-  	<time datetime="2020-12-13T07:53:48.302Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-13</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Note-of-Bubble-Collisions"><a href="#Note-of-Bubble-Collisions" class="headerlink" title="Note of Bubble Collisions"></a>Note of Bubble Collisions</h2><h4 id="Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory"><a href="#Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory" class="headerlink" title="Dynamic of false vacuum bubbles in Brans-Dicke theory"></a>Dynamic of false vacuum bubbles in Brans-Dicke theory</h4><p>Brans-Dicke theory 是一种scalar-tensor theory 的理论框架，引力的相互作用可以由scalar场调节。</p>
-<p>关于引力的一个最重要的直觉就是Mach’s 原则， 惯性与引力属性有整个宇宙的物质分布决定。</p>
-<p>在这篇文章里，G是时间的函数 G（t）, t又是宇宙的density 和size的函数。所以G由scalar场决定。</p>
-<p>所以，bubble内部是brans-dicke 场 $\phi$, 外部是Einstein gravity.</p>
-<p>​           内部是stable de Sitter space, outside is stable Schwarzschild space.</p>
-<hr>
-<h4 id="False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field"><a href="#False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field" class="headerlink" title="False vacuum bubble nucleation due to a nonminimally coupled scalar field"></a>False vacuum bubble nucleation due to a nonminimally coupled scalar field</h4><p>今天和wonwoo讨论了一下，这个时间段发生的真是太早了，z=10000，wonwoo因为想使得由true to fault 的变化，想让这个过程发生在inflation之前，这就没有了让他来做dark energy的动力。只能往引力波上搞了。</p>
-<p>这篇文章里提到了几处由fault 的能量比true的低，所以有可能有相变的方法，但在action的变换并没有非常有效的解释由来。他建议我去读转换到Jordan frame的文章。</p>
-<p>而且这篇有点错误，去读 nucleation of vacuum bubbles of a scalar-gravitating scalar field 的计算。</p>
-<p>之后给我一篇f(R)的文章，觉得可以把 DEGB theory 套进proca, 嗯。。我再看看吧</p>
-<p><a href="https://arxiv.org/pdf/2012.15625.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2012.15625.pdf</a> 荣根cai,</p>
-<p>Magnetic field and gravitational waves from the first-order Phase Transition</p>
-<img src="C:\Users\yinlu\Desktop\wonwoo\cai.png" alt="cai" style="zoom:60%;">
-
-
-
-<p><a href="https://arxiv.org/pdf/2007.15586.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2007.15586.pdf</a></p>
-<img src="C:\Users\yinlu\Desktop\wonwoo\微信图片_20210107184836.png" alt="微信图片_20210107184836" style="zoom:60%;">
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/eb20f1f7.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Why we need Holographic dark energy" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/5fb2c77f.html">Why we need Holographic dark energy</a>
-    </h1>
-  
-
-        
-        <a href="/archives/5fb2c77f.html" class="archive-article-date">
-  	<time datetime="2020-08-14T03:25:21.018Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Where-the-idea-come-from？"><a href="#Where-the-idea-come-from？" class="headerlink" title="Where the idea come from？"></a>Where the idea come from？</h2><p>本质上说，暗能量问题是一个量子引力问题。</p>
-<p>经典引力中，人们可以引入cosmology constant 使得dark energy 为任意值，只有在量子引力中，宇宙学常数才是一个可以计算的量。当前，用这种框架探索的‘全息暗能量模型’， 就是量子引力系统中传统的定域量子场论会失效。</p>
-<p>原因就是定域场论中过多的自由度会导致黑洞的形成，而破坏场论的有效性。为此，人们引入了紫外/红外对偶。量子零点能密度的计算需要符合紫外\红外对偶。这样得到的暗能量密度完全符观测。</p>
-<p>为了得到合理的w, 李淼提出红外截断应该由宇宙未来事件视界决定，这就得到了广受使用的HDE.</p>
-<p>紫外截断是普朗克长度，他是空间最小的尺寸，所以使得空间成为连续的格子，所以自由度的个数与体积成正比。</p>
-<p>在基本系统中，自由度的个数就是系统的熵。如果尺度足够大，由紫外截断给出的熵会超过系统最大熵，所以黑洞的存在揭示了量子引力的一个反直觉的性质，系统的基本自由度与宏观体积有关，换句话说，系统的紫外截断不是独立于红外截断的。这就是所谓的“紫外\红外”截断。</p>
-<p>黑洞内部的所有可能为外部观察者看到的自由度就反映在视界上。这就是全息效应，就是全息一词的由来。</p>
-<p>量子场的真空能的计算应满足全息原理的要求，也就是如果真空的量子零点能密度与紫外截断相联系，那么这个系统的总能量不能超过同尺度的黑洞的能量。把这个系统取为整个宇宙，这个与全息原理相关的这空能就被认为是暗能量，即全息暗能量。</p>
-<p>也就是把粒子视界与外来事件视界联系了起来。</p>
-<p>（以上为张鑫教授博士论文读书笔记）</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/5fb2c77f.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-当前目录开启终端" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/6c3e701c.html">当前目录开启终端</a>
-    </h1>
-  
-
-        
-        <a href="/archives/6c3e701c.html" class="archive-article-date">
-  	<time datetime="2020-07-20T02:06:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>sudo apt-get install nautilus-open-terminal</p>
-<p>若遇到报错， 尝试</p>
-<p>sudo apt-get install nautilus-extension-gnome-terminal</p>
-<p>nautilus -q</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/6c3e701c.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-连接ssh时遇到的问题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/b72cfa27.html">连接ssh时遇到的问题</a>
-    </h1>
-  
-
-        
-        <a href="/archives/b72cfa27.html" class="archive-article-date">
-  	<time datetime="2020-07-18T08:30:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>在连接ssh 时遇到问题报错：<br>No more authentication methods to try.<br>Permission denied (publickey,gssapi-with-mic).</p>
-        
-          <a class="article-more-a" href="/archives/b72cfa27.html#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">program</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/b72cfa27.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-July-2020" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/5d1fe638.html">July 2020</a>
-    </h1>
-  
-
-        
-        <a href="/archives/5d1fe638.html" class="archive-article-date">
-  	<time datetime="2020-07-18T08:17:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>7/17<br>Mark Devlin (University of Pennsylvania)<br>The Cosmic Microwave Background</p>
-<p>ACT: the atacama cosmology telescope<br>智利<br>主要测CMB 的 B-mode.<br>六米左右直径<br> planck Power specctrum<br>ACT主要是测量CMB的high-l部分，从500 到近4000，而Planck是从0-2000. 所以ACT不存在low_l与high-l的tension。<br>paper：<a href="https://arxiv.org/abs/2007.07288" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/abs/2007.07288</a></p>
-<hr>
-<!-- 
-
-23rd July, 9 pm
-Evan McDonough
-Constraining Early Dark Energy with Large Scale Structure
-https://zoom.us/j/4214801692?pwd=TGxVWHJudnI1S25FbXhERlVDMkN0dz09
-Meeting ID: 4214801692
-Password: cosmology
-
-
-
----------------------------
-
-New physics probes with neutrino and dark matter experiments
-Valentina de Romeri
-24 July 2020, 03:00 AM - 04:00 AM 
-https://inspirehep.net/seminars/1806698
-
----------------
-
-Gravitational Particle Production in the Inflationary Era 1
-Edward W. Kolb
-7/24 中午12：00
-https://inspirehep.net/seminars/180671
-
-----------------------------------
-July 24 (Friday), 2:00 p.m
-(entry link: https://zoom.us/j/97515238644?pwd=NVhGZlNXcXBJSUdWSnNueW9LSkFndz09)
-Speaker: Eoin O Colgain (APCTP)
-Title: Testing the string theory Swampland using late-time cosmology
-
----------------------
-Gravitational waves from the non-local Starobinsky inflation
-Sachiko Kuroyanagi(Madrid, IFT)
-SEARCH
-------------------------------
-29th July, Wednesday, 3 pm CEST, Krakow time. 
-Valerie Domcke (DESY)
-High frequency gravitational waves
-https://indico.cern.ch/event/936284/?fbclid=IwAR0doyn1PSnc7upyJFLu8bCPms4sLoWmuBcfe5g2Rjpa0EL_ZcsiDRprST0
----------------
-Understanding our Universe with Gravitational Waves
-Barry C. Barish(LIGO Lab., Caltech)
-4 August 2020, 02:00 AM - 03:00 AM CST (3 August 2020, 08:00 PM - 09:00 PM CEST)
-https://inspirehep.net/seminars/1807524
-
--->
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Cosmology</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Dailylife</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/5d1fe638.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
     </nav>
   
 
@@ -1077,11 +1024,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Dailylife</a>
+                <a href="javascript:void(0)" class="js-tag color4">Gravitational Wave</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Gravitational Wave</a>
+                <a href="javascript:void(0)" class="js-tag color5">Dailylife</a>
               </li>
              
               <li class="article-tag-list-item">

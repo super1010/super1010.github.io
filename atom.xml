@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://super1010.github.io/"/>
-  <updated>2021-02-04T15:35:34.255Z</updated>
+  <updated>2021-07-05T08:46:54.179Z</updated>
   <id>http://super1010.github.io/</id>
   
   <author>
@@ -15,6 +15,193 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CosmoMC 画图更改颜色</title>
+    <link href="http://super1010.github.io/archives/d6b5ecb.html"/>
+    <id>http://super1010.github.io/archives/d6b5ecb.html</id>
+    <published>2021-06-18T14:23:50.272Z</published>
+    <updated>2021-07-05T08:46:54.179Z</updated>
+    
+    <content type="html"><![CDATA[<p>from getdist import plots</p><p>g=plots.get_subplot_plotter(chain_dir=r’/home/ubuntu/cosmomc/chains’)</p><p>roots = [‘test’]</p><p>params = [‘omegabh2’, ‘omegach2’]</p><p>g.triangle_plot(roots, params, filled=True,</p><p>line_args = [{‘lw’:1, ‘color’: ‘pink’}], contour_colors =[‘darkgreen’])</p><p>g.export(‘yinlu.eps’)</p><p>#其它备选颜色 darkblue lightgreen</p><img src="../../../AppData/Roaming/Typora/typora-user-images/image-20210618233646881.png" alt="image-20210618233646881" style="zoom: 67%;">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;from getdist import plots&lt;/p&gt;
+&lt;p&gt;g=plots.get_subplot_plotter(chain_dir=r’/home/ubuntu/cosmomc/chains’)&lt;/p&gt;
+&lt;p&gt;roots = [‘test’]&lt;/p&gt;
+&lt;p&gt;par
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>获取VirtualBox COM对象失败，应用程序将被中断(The VBoxSDS windows service is disabled)注册表修改无效 解决办法</title>
+    <link href="http://super1010.github.io/archives/a3cf0582.html"/>
+    <id>http://super1010.github.io/archives/a3cf0582.html</id>
+    <published>2021-05-29T08:24:20.810Z</published>
+    <updated>2021-07-05T08:46:54.194Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决此问题，打开Windows服务（Win + R，然后键入services.msc），然后找到VirtualBox系统服务并启动该服务，设置为自动，确定然后重启virtualbox即可。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;解决此问题，打开Windows服务（Win + R，然后键入services.msc），然后找到VirtualBox系统服务并启动该服务，设置为自动，确定然后重启virtualbox即可。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>junk/SN</title>
+    <link href="http://super1010.github.io/archives/412b70ff.html"/>
+    <id>http://super1010.github.io/archives/412b70ff.html</id>
+    <published>2021-05-25T06:30:21.486Z</published>
+    <updated>2021-07-05T08:46:54.181Z</updated>
+    
+    <content type="html"><![CDATA[<p>If your student wants to look at the Pantheon dataset, here it is. </p><p>So starting from column 0, the redshift, magnitude, error on magnitude, right ascension and declination are in columns (7, 24, 25, 34, 35). </p><p>I do not see any evidence for an orientation in the supernovae, but will look again next week. I suspect the authors of this paper (<a href="https://arxiv.org/pdf/1806.02773.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1806.02773.pdf</a>) have done a good job and there is nothing to see in Pantheon. One wonders if all the corrections they apply to light curves for colour, shape could wash these things out. Let me see if I can recover some of Roya’s results with Subir in Pantheon and/or JLA. </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;If your student wants to look at the Pantheon dataset, here it is. &lt;/p&gt;
+&lt;p&gt;So starting from column 0, the redshift, magnitude, error on m
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>角度转换</title>
+    <link href="http://super1010.github.io/archives/35dfd7de.html"/>
+    <id>http://super1010.github.io/archives/35dfd7de.html</id>
+    <published>2021-05-19T02:13:26.008Z</published>
+    <updated>2021-07-05T08:46:54.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>Right ascension (abbreviated RA; symbol α) is the angular distance of a particular point measured eastward along the celestial equator from the Sun at the March equinox to the (hour circle of the) point in question above the earth.<a href="https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20" target="_blank" rel="external nofollow noopener noreferrer">https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20</a>(abbreviated%20RA%3B%20symbol,in%20question%20above%20the%20earth</p><p><a href="https://arxiv.org/pdf/1907.04869.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1907.04869.pdf</a></p><p><img src="../images/Snipaste_2021-05-19_11-16-34.png" alt="Snipaste_2021-05-19_11-16-34"></p><p>for alpha: </p><p>​             16 is hour , 09 is mins, 13.96 is second.</p><p>​             hour * 360 / 24 + mins /60 * 360 / 24 +second /60 /60 * 360 /24 = degree.</p><p>for delta:</p><p>​             it’s degree already</p><p>correspond to Horizontal axis vertical axis</p><p><img src="../images/Snipaste_2021-05-19_11-38-21.png" alt="Snipaste_2021-05-19_11-38-21"></p><p>This is the table in our paper</p><img src="../../../AppData/Roaming/Typora/typora-user-images/image-20210519112959547.png" alt="image-20210519112959547" style="zoom:67%;"><p>if need CMB dipole :</p><p>In local group coordinates it is:</p><p> 627 \pm 22 km/s in the direction of galactic longitude and latitude l = 276 \pm 3 degree, b = 30 \pm 3 degree</p><p>In galactic coordinates it is:</p><p>369 km/s towards RA=168 degree, DEC=−7 degree</p><p>(Stewart &amp; Sciama 1967; Peebles &amp; Wilkinson 1968; Hinshaw et al. 2009)</p><p>or see roya paper <a href="https://arxiv.org/pdf/1712.03444.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1712.03444.pdf</a>.</p><p>For DES data</p><p><a href="https://arxiv.org/pdf/1702.00072.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1702.00072.pdf</a></p><img src="../images/Snipaste_2021-05-19_11-27-30.png" alt="Snipaste_2021-05-19_11-27-30" style="zoom:50%;"><p><a href="https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20" target="_blank" rel="external nofollow noopener noreferrer">https://en.m.wikipedia.org/wiki/Right_ascension#:~:text=Right%20ascension%20</a>(abbreviated%20RA%3B%20symbol,in%20question%20above%20the%20earth</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Right ascension (abbreviated RA; symbol α) is the angular distance of a particular point measured eastward along the celestial equator fr
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The question of FLRW</title>
+    <link href="http://super1010.github.io/archives/92dd292.html"/>
+    <id>http://super1010.github.io/archives/92dd292.html</id>
+    <published>2021-04-29T07:25:08.103Z</published>
+    <updated>2021-07-05T08:46:54.185Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="the-standard-arguments-for-FLRW-in-the-late-Universe"><a href="#the-standard-arguments-for-FLRW-in-the-late-Universe" class="headerlink" title="the standard arguments for FLRW in the late Universe?"></a>the standard arguments for FLRW in the late Universe?</h5><p>In fact one usually writes a first-order perturbation theory around background FLRW to explain the late Universe. As you know, the unperturbed FLRW would just not work.</p><p>The peculiar velocities, density fluctuation etc are all first-order terms. However as you saw in our work and also Kostas and others works…. even the perturbed FLRW does not hold well for late Universe !</p><p>Roya</p><p>I am not sure about the homogeneity scale of 100 Mpcs. The “homogeneity scale”  is rather a poorly defined quantity and even a more poorly-observed hypothesis.</p><p>We observe huge superclusters on scales above 100 Mpcs, at least in our Local Universe (e.g. Shapley at around 120-150 Mpcs) and we do not observe convergence to CMB restframe at scale of 100 Mpcs, contrary to the predictions of FLRW.</p><p>FLRW dates back to before Penzias and Wilson’s discovery: the initial<br>physical motivation was “convenience” really :  you can write correlation functions and do statistical analysis in FLRW Universe etc….. Then came CMB and its isotropy which provided strong evidence for the FLRW hypothesis at early times. However the evidence from late Universe, LSS, galaxy distributions provide not-so-firm support for homogeneity and isotropy.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;the-standard-arguments-for-FLRW-in-the-late-Universe&quot;&gt;&lt;a href=&quot;#the-standard-arguments-for-FLRW-in-the-late-Universe&quot; class=&quot;headerl
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>arxiv笔记</title>
+    <link href="http://super1010.github.io/archives/d3a61e50.html"/>
+    <id>http://super1010.github.io/archives/d3a61e50.html</id>
+    <published>2021-04-13T08:14:30.878Z</published>
+    <updated>2021-07-05T08:46:54.188Z</updated>
+    
+    <content type="html"><![CDATA[<p>Exploring the Early Universe with <strong>Gaia</strong> and <strong>THEIA</strong></p><p>Juan Garcia-Bellido, Hitoshi Murayama and Graham White</p><p>Gaia是frequency介于pulsar timing 阵列 和LISA之间的优秀探测。</p><p><img src="../images/1618370365(1).png" alt="1618370365(1)"></p><hr><p>标准烛光VS 多个local H0测量</p><p>EDE+PHANTOM</p><hr><p>4/19</p><p>Growth of Massive Black Hole Seeds by Migration of Stellar and Primordial Black Holes: Gravitational Waves and Stochastic Background </p><p>2104.07682v1</p><hr><p>苏联物理学家雅科夫·泽利多维奇（Yakov Zeldovich）和伊戈尔·诺维科夫（Igor Novikov）早在1967年就首先指出，黑洞在宇宙早期可以吸积辐射并剧烈增长；紧接着在1971年，斯蒂芬·霍金（Stephen Hawking）提出了由宇宙早期超致密不均匀性直接坍缩形成原初黑洞的机制，这是目前被广泛接受的原初黑洞形成机制。在此之后，霍金与伯纳德·卡尔（Bernard Carr）发展了原初黑洞相关理论并做了大量先驱性工作。</p><p>在过去的五十年间，原初黑洞一直是宇宙学的一大焦点。原因之一是大家普遍认为，相对于天体物理黑洞，原初黑洞质量较小，霍金辐射在其演化过程中非常重要。霍金辐射是一种量子场论在弯曲时空中的效应，它的发现直接引出了黑洞信息悖论，该悖论随后成为了理论物理学和宇宙学领域最前沿的一大问题。再者就是，原初黑洞本身可以产生很多宇宙学和天体物理现象。诞生时质量小于10e15克的原初黑洞会由于霍金蒸发效应而无法存活到今天，但其可以对如下现象做出可能的解释：伽马射线背景、宇宙线中的反物质粒子以及短时间的伽马暴等。相比之下，质量大于10e15克的原初黑洞具有更大的意义，它们可以为超大质量黑洞的形成提供种子，影响大尺度结构的形成，对宇宙热历史和电离历史产生影响等。</p><hr><p><a href="https://arxiv.org/pdf/2105.13549.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2105.13549.pdf</a></p><p>Dark Energy Survey Year 3 Results: Cosmological Constraints from Galaxy Clustering and Weak Lensing</p><img src="../images/31.png" alt="31" style="zoom:60%;"><img src="../images/Snipaste_2021-05-31_13-54-08.png" alt="Snipaste_2021-05-31_13-54-08" style="zoom:50%;"><img src="../images/Snipaste_2021-05-31_13-53-53.png" alt="Snipaste_2021-05-31_13-53-53" style="zoom:60%;">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Exploring the Early Universe with &lt;strong&gt;Gaia&lt;/strong&gt; and &lt;strong&gt;THEIA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Juan Garcia-Bellido, Hitoshi Murayama and Graha
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>potential</title>
+    <link href="http://super1010.github.io/archives/e2c47660.html"/>
+    <id>http://super1010.github.io/archives/e2c47660.html</id>
+    <published>2021-04-12T03:15:48.338Z</published>
+    <updated>2021-07-05T08:46:54.190Z</updated>
+    
+    <content type="html"><![CDATA[<p>Primordial Black Holes Arise When The Inflaton Falls</p><p>Keisuke Inomata,1 Evan McDonough,1 and Wayne Hu</p><p>Primordial Black Holes (PBHs) have entered the forefront of theoretical cosmology, due their potential role in phenomena ranging from gravitational waves, to dark matter, to galaxy formation. While producing PBHs from inflationary fluctuations naively would seem to require a large deceleration of the inflaton from its velocity at the horizon exit of CMB scales, in this work we demonstrate that an acceleration from a relatively small downward step in the potential that is transited in much less than an e-fold amplifies fluctuations as well. Depending on the location of the step, such PBHs could explain dark matter or the black holes detected by the gravitational wave interferometers. The perturbation enhancement has a natural interpretation as particle production due to the non-adiabatic transition associated with the step.</p><img src="../images/c6388684591dadca4553dcbe5324d41.png" alt="c6388684591dadca4553dcbe5324d41" style="zoom:60%;"><img src="../images/151f3987fb18aa443f68f6f8df9b3dc.png" alt="151f3987fb18aa443f68f6f8df9b3dc" style="zoom:60%;">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Primordial Black Holes Arise When The Inflaton Falls&lt;/p&gt;
+&lt;p&gt;Keisuke Inomata,1 Evan McDonough,1 and Wayne Hu&lt;/p&gt;
+&lt;p&gt;Primordial Black Holes
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python cosmoTransitions 学习笔记</title>
+    <link href="http://super1010.github.io/archives/6c4b5f99.html"/>
+    <id>http://super1010.github.io/archives/6c4b5f99.html</id>
+    <published>2021-03-29T05:16:42.482Z</published>
+    <updated>2021-07-05T08:46:54.192Z</updated>
+    
+    <content type="html"><![CDATA[<p>bug出现</p><p>object of type &lt;class ‘numpy.float64’&gt; cannot be safely interpreted as an integer.</p><p>由于numpy版本太高导致。</p><p>解决：</p><p>pip uninstall numpy</p><p>conda install numpy=1.17.5</p><p>pip install numpy==1.17.5</p><hr><p>关于spyder中plt.show()不显示画图输出结果的解决办法</p><p>依次点击菜单栏Tools-&gt;Preferences-&gt;IPython console-&gt;Graphics-&gt;Graphics backend-&gt;Backend,将Backend设置为了第一项是在SPYDER内生成，第二项是弹出图片。</p><p>终于可以运行了，泪目。</p><hr><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;bug出现&lt;/p&gt;
+&lt;p&gt;object of type &amp;lt;class ‘numpy.float64’&amp;gt; cannot be safely interpreted as an integer.&lt;/p&gt;
+&lt;p&gt;由于numpy版本太高导致。&lt;/p&gt;
+&lt;p&gt;解决：&lt;/p
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>配置运行C++</title>
@@ -137,9 +324,9 @@
     <link href="http://super1010.github.io/archives/eb20f1f7.html"/>
     <id>http://super1010.github.io/archives/eb20f1f7.html</id>
     <published>2020-12-13T07:53:48.302Z</published>
-    <updated>2021-01-11T07:20:40.176Z</updated>
+    <updated>2021-04-27T06:16:30.783Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Note-of-Bubble-Collisions"><a href="#Note-of-Bubble-Collisions" class="headerlink" title="Note of Bubble Collisions"></a>Note of Bubble Collisions</h2><h4 id="Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory"><a href="#Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory" class="headerlink" title="Dynamic of false vacuum bubbles in Brans-Dicke theory"></a>Dynamic of false vacuum bubbles in Brans-Dicke theory</h4><p>Brans-Dicke theory 是一种scalar-tensor theory 的理论框架，引力的相互作用可以由scalar场调节。</p><p>关于引力的一个最重要的直觉就是Mach’s 原则， 惯性与引力属性有整个宇宙的物质分布决定。</p><p>在这篇文章里，G是时间的函数 G（t）, t又是宇宙的density 和size的函数。所以G由scalar场决定。</p><p>所以，bubble内部是brans-dicke 场 $\phi$, 外部是Einstein gravity.</p><p>​           内部是stable de Sitter space, outside is stable Schwarzschild space.</p><hr><h4 id="False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field"><a href="#False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field" class="headerlink" title="False vacuum bubble nucleation due to a nonminimally coupled scalar field"></a>False vacuum bubble nucleation due to a nonminimally coupled scalar field</h4><p>今天和wonwoo讨论了一下，这个时间段发生的真是太早了，z=10000，wonwoo因为想使得由true to fault 的变化，想让这个过程发生在inflation之前，这就没有了让他来做dark energy的动力。只能往引力波上搞了。</p><p>这篇文章里提到了几处由fault 的能量比true的低，所以有可能有相变的方法，但在action的变换并没有非常有效的解释由来。他建议我去读转换到Jordan frame的文章。</p><p>而且这篇有点错误，去读 nucleation of vacuum bubbles of a scalar-gravitating scalar field 的计算。</p><p>之后给我一篇f(R)的文章，觉得可以把 DEGB theory 套进proca, 嗯。。我再看看吧</p><p><a href="https://arxiv.org/pdf/2012.15625.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2012.15625.pdf</a> 荣根cai,</p><p>Magnetic field and gravitational waves from the first-order Phase Transition</p><img src="C:\Users\yinlu\Desktop\wonwoo\cai.png" alt="cai" style="zoom:60%;"><p><a href="https://arxiv.org/pdf/2007.15586.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2007.15586.pdf</a></p><img src="C:\Users\yinlu\Desktop\wonwoo\微信图片_20210107184836.png" alt="微信图片_20210107184836" style="zoom:60%;">]]></content>
+    <content type="html"><![CDATA[<h2 id="Note-of-Bubble-Collisions"><a href="#Note-of-Bubble-Collisions" class="headerlink" title="Note of Bubble Collisions"></a>Note of Bubble Collisions</h2><h4 id="Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory"><a href="#Dynamic-of-false-vacuum-bubbles-in-Brans-Dicke-theory" class="headerlink" title="Dynamic of false vacuum bubbles in Brans-Dicke theory"></a>Dynamic of false vacuum bubbles in Brans-Dicke theory</h4><p>Brans-Dicke theory 是一种scalar-tensor theory 的理论框架，引力的相互作用可以由scalar场调节。</p><p>关于引力的一个最重要的直觉就是Mach’s 原则， 惯性与引力属性有整个宇宙的物质分布决定。</p><p>在这篇文章里，G是时间的函数 G（t）, t又是宇宙的density 和size的函数。所以G由scalar场决定。</p><p>所以，bubble内部是brans-dicke 场 $\phi$, 外部是Einstein gravity.</p><p>​           内部是stable de Sitter space, outside is stable Schwarzschild space.</p><hr><h4 id="False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field"><a href="#False-vacuum-bubble-nucleation-due-to-a-nonminimally-coupled-scalar-field" class="headerlink" title="False vacuum bubble nucleation due to a nonminimally coupled scalar field"></a>False vacuum bubble nucleation due to a nonminimally coupled scalar field</h4><p>今天和wonwoo讨论了一下，这个时间段发生的真是太早了，z=10000，wonwoo因为想使得由true to fault 的变化，想让这个过程发生在inflation之前，这就没有了让他来做dark energy的动力。只能往引力波上搞了。</p><p>这篇文章里提到了几处由fault 的能量比true的低，所以有可能有相变的方法，但在action的变换并没有非常有效的解释由来。他建议我去读转换到Jordan frame的文章。</p><p>而且这篇有点错误，去读 nucleation of vacuum bubbles of a scalar-gravitating scalar field 的计算。</p><p>之后给我一篇f(R)的文章，觉得可以把 DEGB theory 套进proca, 嗯。。我再看看吧</p><p><a href="https://arxiv.org/pdf/2012.15625.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2012.15625.pdf</a> 荣根cai,</p><p>Magnetic field and gravitational waves from the first-order Phase Transition</p><img src="C:\Users\yinlu\Desktop\wonwoo\cai.png" alt="cai" style="zoom:60%;"><p><a href="https://arxiv.org/pdf/2007.15586.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2007.15586.pdf</a></p><img src="C:\Users\yinlu\Desktop\wonwoo\微信图片_20210107184836.png" alt="微信图片_20210107184836" style="zoom:60%;"><p>Kappa_\phi</p><p>Cosmological Backgrounds of Gravitational Waves and eLISA/NGO: Phase Transitions, Cosmic Strings and Other Sources<br>Pierre Binetruy (APC, Paris), Alejandro Bohe (Paris, Inst. Astrophys.), Chiara Caprini (Saclay, SPhT), Jean-Francois Dufaux (APC, Paris). Jan 2012. 47 pp.<br>Published in JCAP 1206 (2012) 027<br>DOI: 10.1088/1475-7516/2012/06/027<br>e-Print: arXiv:1201.0983 [gr-qc]</p><hr><p><img src="../images/90fa4c32dd17c072a3db06b6ac5b082.png" alt="90fa4c32dd17c072a3db06b6ac5b082"></p><p>first order phase transition是有一个壁的隧穿，二阶相变是滚动下来。正常的有phi^4, 二阶可以构造一个phi^6来让尾部再翘上去。</p><p><img src="../images/b1d4e38577bfb5724cb5e370b49cdc3.png" alt="b1d4e38577bfb5724cb5e370b49cdc3"></p><img src="../images/69e1e66307baf5d280dcb5d26fa73c8.png" alt="69e1e66307baf5d280dcb5d26fa73c8" style="zoom:60%;">]]></content>
     
     <summary type="html">
     
@@ -254,9 +441,9 @@
     <link href="http://super1010.github.io/archives/ee7a414b.html"/>
     <id>http://super1010.github.io/archives/ee7a414b.html</id>
     <published>2020-04-29T12:59:01.000Z</published>
-    <updated>2020-06-19T13:05:01.579Z</updated>
+    <updated>2021-05-03T06:02:42.391Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://arxiv.org/pdf/1610.09330.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1610.09330.pdf</a><br><a href="https://en.wikipedia.org/wiki/Akaike_information_criterion" target="_blank" rel="external nofollow noopener noreferrer">https://en.wikipedia.org/wiki/Akaike_information_criterion</a></p><p>AICc 是对小数据点的修正<br>n 是 sample size, 看起来是用到的观测数据的数量。<br>如果 n/k&gt;40,则为大n, 应该用AIC.<br>反之 n/k&lt;40 用AICc</p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://arxiv.org/pdf/1610.09330.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1610.09330.pdf</a><br><a href="https://en.wikipedia.org/wiki/Akaike_information_criterion" target="_blank" rel="external nofollow noopener noreferrer">https://en.wikipedia.org/wiki/Akaike_information_criterion</a></p><p>AICc 是对小数据点的修正<br>n 是 sample size, 看起来是用到的观测数据的数量。<br>如果 n/k&gt;40,则为大n, 应该用AIC.<br>反之 n/k&lt;40 用AICc</p><p><a href="https://arxiv.org/pdf/2104.15123.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/2104.15123.pdf</a></p><p>AIC BIC DIC</p>]]></content>
     
     <summary type="html">
     
@@ -278,9 +465,9 @@
     <link href="http://super1010.github.io/archives/92a78a0a.html"/>
     <id>http://super1010.github.io/archives/92a78a0a.html</id>
     <published>2020-04-15T02:13:49.000Z</published>
-    <updated>2020-04-16T07:11:07.020Z</updated>
+    <updated>2021-03-19T11:22:22.236Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2><a id="more"></a><p>早期宇宙有很多模型会发生随机引力波背景（Stochastic GW Background），不同光谱的形状是区分不同机制的主要方法。</p><p>Aligo, AVirgo, Kagra 精度在 OMG_GW~10^-9, frequency在 10-100 HZ.</p><p>DECIGO——————–精度在 OMG_GW~10^-16, frequency在 0.1-1 HZ.</p><p><img src="/images/GW2.png" alt></p><hr><p><img src="/images/GW1.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Stochastic-Gravitational-Wave-Background-Source"><a href="#Stochastic-Gravitational-Wave-Background-Source" class="headerlink" title="Stochastic Gravitational Wave Background Source"></a>Stochastic Gravitational Wave Background Source</h2><a id="more"></a><p>早期宇宙有很多模型会发生随机引力波背景（Stochastic GW Background），不同光谱的形状是区分不同机制的主要方法。</p><p>Aligo, AVirgo, Kagra 精度在 OMG_GW~10^-9, frequency在 10-100 HZ.</p><p>DECIGO——————–精度在 OMG_GW~10^-16, frequency在 0.1-1 HZ.</p><p><img src="/images/GW2.png" alt></p><hr><p><img src="/images/GW1.png" alt></p><p>Ligo L1 靠近海，kagra山底下，</p>]]></content>
     
     <summary type="html">
     
@@ -293,69 +480,6 @@
       <category term="Cosmology" scheme="http://super1010.github.io/tags/Cosmology/"/>
     
       <category term="Gravitational Wave" scheme="http://super1010.github.io/tags/Gravitational-Wave/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows下 构建CosmoMC的虚拟机CosmoBOX Desktop</title>
-    <link href="http://super1010.github.io/archives/ec720509.html"/>
-    <id>http://super1010.github.io/archives/ec720509.html</id>
-    <published>2020-04-12T13:48:57.000Z</published>
-    <updated>2020-04-12T15:07:55.939Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载 virtualbox和vagrant，并安装<br><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external nofollow noopener noreferrer">https://www.virtualbox.org/wiki/Downloads</a><br><a href="https://www.vagrantup.com/downloads.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.vagrantup.com/downloads.html</a></p><a id="more"></a><p>在适当位置放入你想要的CosmoMC文件</p><p>运行R,打开cmd,转到你的cosmomc文件夹下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant init cmbant/cosmobox</span><br><span class="line">$ vagrant up</span><br></pre></td></tr></table></figure><p>这样你在terminal里/vagrant/下创建的文件就在CosmoMC文件下</p><p>/vagrant下的文件，将存储在本地计算机上</p><p>在cosmomc文件夹下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant resume</span><br></pre></td></tr></table></figure><p>重启动</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="built_in">suspend</span></span><br></pre></td></tr></table></figure><p>保存并关机</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant up</span><br></pre></td></tr></table></figure><p>启动</p><p>以上符合CosmoMC环境的Linux系统就安装好了。<br>下一步是按网站说明安装CAMB 和 Planck数据。<br>我会之后更新</p><hr><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>cdm转到 你刚才安装的文件夹下<br>启动虚拟机：vagrant up（第一次是）<br>远程连接：  vagrant ssh (超级方便)<br>删除虚拟机：vagrant destroy<br>暂停虚拟机：vagrant suspend（推荐）<br>关闭虚拟机：vagrant halt (耗时不推荐)<br>恢复被暂停的虚拟机：vagrant resume<br>重启虚拟机：vagrant reload（每次改了Vagrantfile配置文件记得重启）<br>查看虚拟机状态：vagrant status</p><hr><h2 id="一些经验"><a href="#一些经验" class="headerlink" title="一些经验"></a>一些经验</h2><p>发现虚拟机linux开启后显示页面就卡住不动，windows下给的外界命令可以运行，但桌面图像卡住。<br>查找了好几个小时，以为虚拟机坏掉了，重装了好几遍还是不行。<br>最后发现，虚拟器和我的英文词典软件（欧路词典）不能同时开启，可能是我的词典软件有屏幕取词功能，引起混乱。<br>关掉词典只开虚拟机，运行效果良好。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;第一章-Windows下搭建环境&quot;&gt;&lt;a href=&quot;#第一章-Windows下搭建环境&quot; class=&quot;headerlink&quot; title=&quot;第一章 Windows下搭建环境&quot;&gt;&lt;/a&gt;第一章 Windows下搭建环境&lt;/h2&gt;&lt;p&gt;下载 virtualbox和vagrant，并安装&lt;br&gt;&lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.vagrantup.com/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://www.vagrantup.com/downloads.html&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="program" scheme="http://super1010.github.io/tags/program/"/>
-    
-      <category term="CosmoMC" scheme="http://super1010.github.io/tags/CosmoMC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://super1010.github.io/archives/4a17b156.html"/>
-    <id>http://super1010.github.io/archives/4a17b156.html</id>
-    <published>2020-03-28T14:40:14.051Z</published>
-    <updated>2020-04-15T03:07:00.722Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external nofollow noopener noreferrer">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external nofollow noopener noreferrer">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external nofollow noopener noreferrer">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="external nofollow noopener noreferrer">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇blog 搭建GitHub+hexo的blog</title>
-    <link href="http://super1010.github.io/archives/4d5d007a.html"/>
-    <id>http://super1010.github.io/archives/4d5d007a.html</id>
-    <published>2020-03-28T13:47:24.000Z</published>
-    <updated>2021-01-11T07:50:02.693Z</updated>
-    
-    <content type="html"><![CDATA[<p>各类系统 演示步骤可参阅<br><a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=1551" target="_blank" rel="external nofollow noopener noreferrer">https://www.bilibili.com/video/BV1Yb411a7ty?t=1551</a><br>所遇问题见弹幕<br>本文基于Windows10</p><a id="more"></a><h2 id="第一章-Windows下搭建环境"><a href="#第一章-Windows下搭建环境" class="headerlink" title="第一章 Windows下搭建环境"></a>第一章 Windows下搭建环境</h2><p>下载并安装 node.js和git<br><a href="https://nodejs.org/en/" target="_blank" rel="external nofollow noopener noreferrer">https://nodejs.org/en/</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://git-scm.com/downloads</a></p><hr><h2 id="第二章-开始写博文"><a href="#第二章-开始写博文" class="headerlink" title="第二章 开始写博文"></a>第二章 开始写博文</h2><p>在cmd命令行下cd进入blog目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">"标题"</span></span><br></pre></td></tr></table></figure><p>创建了一个新标题</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><p>进入子目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad 标题</span><br></pre></td></tr></table></figure><p>打开刚才标题下的博文</p><p>写完后保存 退出</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ../..</span><br></pre></td></tr></table></figure><p>退回到blog</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>生成博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>重新启动<br>关闭</p><hr><h2 id="第三章-安装插件"><a href="#第三章-安装插件" class="headerlink" title="第三章 安装插件"></a>第三章 安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>dir 命令查看文件夹下文件 相当于ls</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ notepad _config.yml</span><br></pre></td></tr></table></figure><p> 在最下端贴上地址按教程修改</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>部署到远端</p><hr><h2 id="第四章-下载与设置theme"><a href="#第四章-下载与设置theme" class="headerlink" title="第四章 下载与设置theme"></a>第四章 下载与设置theme</h2><p>可选择各种主题<br><a href="https://hexo.io/themes/" target="_blank" rel="external nofollow noopener noreferrer">https://hexo.io/themes/</a><br>我选择了yilia</p><p>下载与安装yilia<br><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/litten/hexo-theme-yilia</a></p><p>进阶修改yilia<br><a href="https://tding.top/archives/9a232bbe.html" target="_blank" rel="external nofollow noopener noreferrer">https://tding.top/archives/9a232bbe.html</a></p><p>在md文章中需要截断的地方添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ &lt;!-- more --&gt;</span><br></pre></td></tr></table></figure><p>要添加多个标签，tags后面这样写就行了</p><p>tags: [标签1,标签2,标签3]</p><h2 id="设置隐藏博文-hexo-hide-posts"><a href="#设置隐藏博文-hexo-hide-posts" class="headerlink" title="设置隐藏博文 hexo-hide-posts"></a>设置隐藏博文 hexo-hide-posts</h2><p>install from：</p><p><a href="https://github.com/printempw/hexo-hide-posts" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/printempw/hexo-hide-posts</a></p><p>在文章的 front-matter 中添加 hidden: true 即可隐藏文章。</p><hr><h3 id="设置隐藏-行-或-段落"><a href="#设置隐藏-行-或-段落" class="headerlink" title="设置隐藏 行 或 段落"></a>设置隐藏 行 或 段落</h3><!-- 這句看不見，一句話的註解 --><!-- 將一個段落隱藏看不見 <!-- 這句看不見，一句話的註解 --><!-- 將一個段落隱藏看不見這  段落  輸出時  會看不見--><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl+l</span><br></pre></td></tr></table></figure><p>表现为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--   看不到的内容 </span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;各类系统 演示步骤可参阅&lt;br&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Yb411a7ty?t=1551&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;https://www.bilibili.com/video/BV1Yb411a7ty?t=1551&lt;/a&gt;&lt;br&gt;所遇问题见弹幕&lt;br&gt;本文基于Windows10&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="program" scheme="http://super1010.github.io/tags/program/"/>
     
   </entry>
   
