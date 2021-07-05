@@ -305,71 +305,6 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-junk/SN" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/archives/412b70ff.html">junk/SN</a>
-    </h1>
-  
-
-        
-        <a href="/archives/412b70ff.html" class="archive-article-date">
-  	<time datetime="2021-05-25T06:30:21.486Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-25</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>If your student wants to look at the Pantheon dataset, here it is. </p>
-<p>So starting from column 0, the redshift, magnitude, error on magnitude, right ascension and declination are in columns (7, 24, 25, 34, 35). </p>
-<p>I do not see any evidence for an orientation in the supernovae, but will look again next week. I suspect the authors of this paper (<a href="https://arxiv.org/pdf/1806.02773.pdf" target="_blank" rel="external nofollow noopener noreferrer">https://arxiv.org/pdf/1806.02773.pdf</a>) have done a good job and there is nothing to see in Pantheon. One wonders if all the corrections they apply to light curves for colour, shape could wash these things out. Let me see if I can recover some of Roya’s results with Subir in Pantheon and/or JLA. </p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/archives/412b70ff.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-角度转换" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -890,6 +825,82 @@ CLOSE(1)</code></pre>  <figure class="highlight plain"><table><tr><td class="gut
       
         <p class="article-more-link">
           <a class="article-more-a" href="/archives/a4166011.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-CLASS NOTE" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/archives/ca1c887e.html">CLASS NOTE</a>
+    </h1>
+  
+
+        
+        <a href="/archives/ca1c887e.html" class="archive-article-date">
+  	<time datetime="2021-01-11T06:46:58.918Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-11</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>CLASS+ Montepython</p>
+<p>安装 class</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make clean; make class</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./class explanatory.ini</span><br></pre></td></tr></table></figure>
+
+
+<p>运行 make<br>会在python生成 build</p>
+<p>Montepython</p>
+<p>default.conf.template 去掉后缀<br>变成 default<br>在里面修改Planck路径和class路径</p>
+<p>进入montepython likelihoods 里Planck的data的第一行路径<br>修改base.param里面修改调用的数据</p>
+<p>运行 python montepython/MontePython.py run -p BK14.param之类的文件名 -o RRR<br>python montepython/MontePython.py run -o CCC -p input/test.param</p>
+<p>Package ‘libatlas-dev’ has no installation candidate</p>
+<p>qi-qcosmc</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/archives/ca1c887e.html">展开全文 >></a>
         </p>
       
 
